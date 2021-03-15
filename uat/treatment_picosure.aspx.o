@@ -1,0 +1,87 @@
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/uat/treatment_tc.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="bodyHead" runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="row">
+        <div class="col-lg-5 col-lg-offset-0 col-sm-5 col-sm-offset-0 col-xs-10 col-xs-offset-1 treatment_img">
+            <img src="../images/treatment_01.png" class="img-thumbnail img-responsive" />
+        </div>
+        <div class="col-lg-6 col-sm-7 col-xs-12">
+            <h1><strong>PicoSure</strong></h1>
+            <h2><strong>蜂巢皮秒機</strong></h2>
+            <p>
+                PicoSure<sup>TM</sup> 是世界上第一部755nm皮秒激光榮獲4項美國FDA認證儀器，安全可靠，針對治療色素性病變，配合蜂巢瞬效透鏡，對處理皺紋、凹凸洞，更見成效!<br />
+                <br />
+                PicoSure<sup>TM</sup> 利用極短脈衝(Picosecond) 產生強烈的光機械衝擊，將目標粉碎成最小顆粒，更容易被人體代謝，同時將光熱效應的副作用降至最低，因而不會傷害周圍的皮膚組織。
+            </p>
+        </div>
+    </div>
+    <div class="row" style="padding-top: 30px;">
+        <div class="col-lg-5 col-sm-5 col-xs-12">
+            <p>
+                <strong>功能變化多端，應用廣泛</strong>
+            </p>
+            <ul>
+                <li>直擊斑點 / 擊退色班</li>
+                <li>打亮美白</li>
+                <li>撫平凹凸洞（痘疤 )</li>
+                <li>滅絕縐紋</li>
+                <li>消除紋身</li>
+                <li>增生骨膠原</li>
+                <li>重塑嫩肌</li>
+            </ul>
+        </div>
+        <div class="col-lg-6 col-sm-7 col-xs-12">
+            <p>
+                <strong>精準判斷</strong>
+            </p>
+            <ul>
+                <li>操作皮秒激光需要專業精準的判斷</li>
+                <li>辨別不同的色斑類型及診斷各種的皮膚問題</li>
+                <li>取決使用不同探頭，調配不同能量,達至最理想皮膚Endpoint(治療指標）</li>
+                <li>調整皮膚狀況，「度身訂造」合適的療程進度，配合其他的治療技術</li>
+                <li>專業團隊發揮儀器最高特性</li>
+
+            </ul>
+            <%--<h3 class="treatment_tag"><strong>肌膚瞬間水潤、彈、滑</strong></h3>--%>
+        </div>
+        <div class="col-lg-12 col-sm-12 col-xs-12">
+            <p>
+                <strong>驚艷之處</strong>
+            </p>
+            <ul>
+                <li>最快激光（100億分之一計算）直達皮膚真皮層</li>
+                <li>形成衝擊波震碎色斑</li>
+                <li>短促脈沖令激光放熱時間縮短，減少熱力對肌膚的創傷性</li>
+                <li>紅、腫、熱、痛、起水泡問題迎刃而解</li>
+                <li>反黑機率低</li>
+                <li>皮膚回春能力高</li>
+                <li>更少的治療次數</li>
+                <li>更高的治療舒適度</li>
+                <li>更短的術後恢原期</li>
+                <li>唯一榮獲四項美國FDA認證儀器，保證安全</li>
+
+            </ul>
+            <%--<h3 class="treatment_tag"><strong>肌膚瞬間水潤、彈、滑</strong></h3>--%>
+        </div>
+        <div class="col-lg-12 col-sm-12 col-xs-12">
+            <p>
+                <strong>皮秒激光迷思</strong>       
+            </p>
+            <p>
+                皮秒激光透過極短脈衝輸出，其脈衝時間 (Pulse Duration) 快至萬億分之一秒 (Pico-Second)，繼而產生極高的峰值功率 (Peak Power) ，造成「光震波效應」(Photo-Acoustic Effect)，令色素粉碎震碎如微塵，迅速被巨噬細胞及皮膚新陳代謝清除，相對傳統納秒激光，皮秒激光能顯現更快、更佳更持久的效果。
+            </p>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="ContentPlaceHolder2" runat="Server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="bodyFoot" runat="Server">
+</asp:Content>

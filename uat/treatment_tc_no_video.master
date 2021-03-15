@@ -1,0 +1,129 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/uat/tc.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+   
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="bodyHead" runat="Server">
+    <asp:ContentPlaceHolder ID="bodyHead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="container-fluid treatment">
+         <div class="row main-visual">
+                <div class="col-xs-12 hidden-xs">
+                    <div id="layersliderWeb" style="width: 100%">
+
+
+                        <div> <img src="../images/banner01.jpg" class="ls-bg"></div>
+                       <div> <img src="../images/banner02.jpg" class="ls-bg"></div>
+
+                        <div> <img src="../images/banner03.jpg" class="ls-bg"></div>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 visible-xs">
+                    <div id="layersliderMobile" style="">
+
+
+                        <div> <img src="../images/m_banner01.jpg" class="ls-bg"></div>
+
+                        <div> <img src="../images/m_banner02.jpg" class="ls-bg"></div>
+                        <div> <img src="../images/m_banner03.jpg" class="ls-bg"></div>
+
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row background_gold color_white treatment_list">
+                    <div class="col-lg-6 col-lg-offset-5 col-md-8 col-md-offset-3 col-sm-10 col-sm-offset-1">
+                        <h3>尊貴療程</h3>
+                        <ul class="list-unstyled"> 
+
+                            <li><a href="treatment_quantum-brain.aspx">量子活腦 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>                            
+
+                            <li><a href="treatment_quantum-touch.aspx">量子共振 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>                            
+
+                            <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>                            
+
+                            <li><a href="treatment_picosure.aspx">PicoSure<br />蜂巢皮秒機 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>                            
+                            <li><a href="treatment_vzet.aspx">隱形彈弓埋線 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                            <li><a href="treatment_doublo-smas.aspx">DOUBLO-SMAS<br />拉皮超聲刀 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                            
+                            <li><a href="treatment_adeline-star.aspx">Adeline Star<br />皺紋燙斗 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                            <li><a href="treatment_plason.aspx">PlaSon<br />等離子傳導儀 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                            <li><a href="treatment_magrex.aspx">煥肌青春儀 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                            <li><a href="treatment_vela-shapelll.aspx">Vela ShapeIII<br />智慧塑身治療 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+
+                            <li><a href="treatment_black-diamond.aspx">黑鑽石黑松露<br />磁排重金屬療程 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                             <li><a href="treatment_lanluis.aspx">reNeu+獨家胸部<br />檢測和護理 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                            <li><a href="treatment_re-youth.aspx">還幼養顏療程 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                            <li><a href="treatment_mask.aspx">紫河生命點擊法 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                            <li><a href="treatment_sense-touch.aspx">Sense Touch<br />四感盈肌儀 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>                                                        
+                           
+
+                            <li><a href="treatment_o-touch.aspx">O<sup>2</sup> Touch<br />高壓注氧嫩膚儀 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                            <li><a href="treatment_freezpen.aspx">FREEZPEN<br />冷凍脫疣療法 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row hidden-xs" style="padding-top:10px; padding-bottom:10px;"></div>
+                <div class="row hidden-xs background_deepred color_white">
+                    <div class="col-lg-6 col-lg-offset-5 text-left" style="padding-top:20px; padding-bottom:40px;">
+                        <h3>預約或查詢</h3>
+                        <p class="color_white" style="text-align:justify; line-height:1.8; font-size:16px;">
+                            我們明白到每位客人膚質及皮膚問題各有不同，我們專業團隊認真聆聽所需、精準分析皮膚狀況、互相製訂「個人專屬療程組合」，客人參予療程的進展，提高療程透明度，達至至瑧完美的療程效果。歡迎與我們聯絡，我們樂意隨時為您效勞
+                        </p>                        
+                    </div>
+                </div>
+                <div class="row" style="padding-top:10px; padding-bottom:10px;"></div>
+            </div>
+            <script type="text/javascript">
+            $(function() {
+
+                var curr_slide = 0;
+
+                $('#layersliderWeb').slick({
+                    dots: false,
+                    arrows: false,
+                    pauseOnFocus: false,
+                    infinite: true,
+                    speed: 800,
+                    autoplaySpeed: 3000,
+                    autoplay: true,
+                    fade: true,
+                    cssEase: 'ease-out',
+                    pauseOnHover: false
+                });
+                $('#layersliderMobile').slick({
+                    dots: false,
+                    arrows: false,
+                    pauseOnFocus: false,
+                    infinite: true,
+                    speed: 800,
+                    autoplaySpeed: 3000,
+                    autoplay: true,
+                    fade: true,
+                    cssEase: 'ease-out',
+                    pauseOnHover: false
+                });
+
+               
+
+            })
+        </script>
+            <div class="col-sm-8 treatment_detail">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>   
+    </div>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="bodyFoot" runat="Server">
+    <asp:ContentPlaceHolder ID="bodyFoot" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+

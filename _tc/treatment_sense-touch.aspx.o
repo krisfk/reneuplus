@@ -1,0 +1,46 @@
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/tc/treatment_tc.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="bodyHead" runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="row">
+        <div class="col-lg-5 col-lg-offset-0 col-sm-5 col-sm-offset-0 col-xs-10 col-xs-offset-1 treatment_img">
+            <img src="../images/treatment_05.png" class="img-thumbnail img-responsive" />
+        </div>
+        <div class="col-lg-6 col-sm-7 col-xs-12">
+            <h1><strong>Sense Touch</strong></h1>
+            <h2><strong>四感盈肌儀</strong></h2>
+            <p><strong>多元極緻修護</strong></p>
+            <p>
+                冷凍電泳-激活細胞循環，膠原再生<br />
+                <br />
+                射頻-修復彈力纖維，重組皮膚彈力<br />
+                <br />
+                微電流-啓動細胞，緊緻除紋<br />
+                <br />
+                微熱按摩-提昇眼部細胞生長速度，擊退黑眼圈及眼部細紋
+            </p>
+        </div>
+    </div>
+    <div class="row" style="padding-top: 30px;">
+        <div class="col-lg-12">
+            <p><strong>療程步驟</strong></p>
+            <ol>
+                <li>冷凍電泳傳導，修復深層組織，藉脈衝電流，有效激活結締組織，令細緻毛孔倍增養分吸收力，提升血液氧分，舒緩泛紅敏感</li>
+                <li>射頻 + 吸啜 雙效力量，讓膠原蛋白極速倍增，修復皮膚組織纖維，重塑肌膚彈力</li>
+                <li>微電流激生技術，啟動細胞及刺激眼周各穴位，加速細胞微循環，令真皮層膠原再生，有效緊緻眼紋</li>
+                <li>再上微熱按摩亮眼罩，發放微熱同時刺激眼周各穴位，引發細胞產生”生物刺激”作用，令眼部肌膚重回健康狀態</li>
+            </ol>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="ContentPlaceHolder2" runat="Server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="bodyFoot" runat="Server">
+</asp:Content>

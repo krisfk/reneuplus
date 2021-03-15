@@ -1,0 +1,51 @@
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/tc/treatment_tc.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="bodyHead" runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="row">
+        <div class="col-lg-5 col-lg-offset-0 col-sm-5 col-sm-offset-0 col-xs-10 col-xs-offset-1 treatment_img">
+            <img src="../images/treatment_03.png" class="img-thumbnail img-responsive" />
+        </div>
+        <div class="col-lg-6 col-sm-7 col-xs-12">
+            <h1><strong>DOUBLO-SMAS</strong></h1>
+            <h2><strong>拉皮超聲刀，重生的天使</strong></h2>
+            <p>
+                高能聚焦超音波HIFU<br />
+                <br />
+                美國FDA認證<br />
+                <br />
+            </p>
+            <p><strong>無創性治療</strong></p>
+            <p>不開刀、不出血、無疤痕、無創傷、無輻射、無副作用、無須恢復原期的療程，重塑3D輪廓</p>
+        </div>
+    </div>
+    <div class="row" style="padding-top: 30px;">
+        <div class="col-lg-12">
+            <p><strong>21世紀皮膚筋膜懸吊治療新技術</strong></p>
+            <p>實現了面部提升，緊緻效果達到手術拉皮的非手術方法。全球各種超聲刀 (高強度聚焦超聲)中心近十萬例的治療表明，無創性的超聲刀技術與傳統方法的治療效果相當的，且更具獨特優勢</p>
+            <p><strong>解決歲月問題</strong></p>
+            <ul>
+                <li>膠原蛋白及彈性纖維退化</li>
+                <li>皮膚脂肪層減少</li>
+                <li>重覆面部表情導致法令絞皺眉紋出現</li>
+                <li>勒帶鬆弛致肌肉下垂</li>
+                <li>HIFU能量可直逹4.5mm SMAS，連同皮下組織SMAS層、肌肉、皮膚一同拉緊，達至革命性的提昇效果</li>
+                <li>HIFU有别於一般激光、彩光、射頻及分段式激光（到達皮膚深度由0.5mm至2.5mm),要做到提拉效果必須進入4.5mm的皮膚深度，唯有HIFU能勝任</li>
+                <li>HIFU修復肌肉上面淺表肌腱筋膜系統SMAS,改善下垂問題</li>
+                <li>刺激皮膚再生系統</li>
+                <li>身段立塑，豐形美體</li>
+            </ul>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="ContentPlaceHolder2" runat="Server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="bodyFoot" runat="Server">
+</asp:Content>

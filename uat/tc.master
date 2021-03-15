@@ -1,0 +1,158 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/site.master" AutoEventWireup="false" CodeFile="tc.master.vb" Inherits="tc_tc" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="bodyHead" runat="Server">
+    <telerik:RadAjaxManagerProxy ID="RadAjaxManagerProxy1" runat="server">
+        <AjaxSettings>
+            <telerik:AjaxSetting AjaxControlID="ddlDate">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="ddlDate" />
+                    <telerik:AjaxUpdatedControl ControlID="ddlTime" />
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+            <telerik:AjaxSetting AjaxControlID="btnSubmit">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="btnSubmit" LoadingPanelID="RadAjaxLoadingPanel1" />
+                    <telerik:AjaxUpdatedControl ControlID="lblSuccess" />
+                    <telerik:AjaxUpdatedControl ControlID="txtName" />
+                    <telerik:AjaxUpdatedControl ControlID="txtTel" />
+                    <telerik:AjaxUpdatedControl ControlID="ddlDate" />
+                    <telerik:AjaxUpdatedControl ControlID="ddlTime" />
+                    <telerik:AjaxUpdatedControl ControlID="cbTnc" />
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+        </AjaxSettings>
+    </telerik:RadAjaxManagerProxy>
+    <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
+    <asp:ContentPlaceHolder ID="bodyHead" runat="server"></asp:ContentPlaceHolder>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="default.aspx">
+                    <img src="../images/reneu-plus.png" /></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right"> 
+                    <li><a href="aboutus.aspx">公司宗旨</a></li>
+                    <li><a href="treatment_quantum-brain.aspx">量子系列</a></li>
+                    <li><a href="treatment_quantum-brain.aspx">尊貴療程</a></li>
+                    <li><a href="skin.aspx">重啟痴庫</a></li> 
+                    <li><a href="contactus.aspx">聯絡我們</a></li>
+                    <li><a  style="padding-right:0;" href="https://www.facebook.com/reneuplus/" target="_blank" style="color: #7f3638;">Facebook <i class="fa fa-facebook-square" aria-hidden="true" style="color: #7f3638;"></i></a></li>
+                    <li><a href="https://wa.me/85263889984" target="_blank">Whatsapp <img class="wts-icon" style="" src="../images/wts-icon.png"></a></li>
+                    <%--<li><a href="https://twitter.com/LimitedRht" target="_blank" style="color:#5db4f7;"><i class="fa fa-twitter" aria-hidden="true" style="color:#5db4f7;"></i> Twitter</a></li>--%>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="bodyFoot" runat="Server">
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row enquiry-form" style="background: url('../images/bg_enquiry.png'); padding: 30px 20px;">
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <div class="jumbotron" style="background: #e8d6b5;">
+                        <img src="../images/title_enquiry.png" class="img-responsive" />
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 form-group">
+                                <label>姓名*</label><asp:RequiredFieldValidator ID="valtxtName" runat="server" ErrorMessage="*請輸入" ControlToValidate="txtName" SetFocusOnError="true" ForeColor="Red"></asp:RequiredFieldValidator>
+                                <asp:TextBox ID="txtName" runat="server" CssClass="form-control"></asp:TextBox>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 form-group">
+                                <label>聯絡電話*</label><asp:RequiredFieldValidator ID="valtxtTel" runat="server" ErrorMessage="*請輸入" ControlToValidate="txtTel" SetFocusOnError="true" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+                                <asp:RegularExpressionValidator ID="valtxtTel2" runat="server" ErrorMessage="*請輸入正確電話" ForeColor="Red" ControlToValidate="txtTel" SetFocusOnError="true" Display="Dynamic" ValidationExpression="[23456789][0-9]{7}"></asp:RegularExpressionValidator>
+                                <asp:TextBox ID="txtTel" runat="server" CssClass="form-control" MaxLength="8"></asp:TextBox>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 form-group">
+                                <label>電郵</label><asp:RegularExpressionValidator ID="valEmail2" runat="server" ErrorMessage="*請輸入正確電郵" ForeColor="Red" ControlToValidate="txtEmail" SetFocusOnError="true" Display="Dynamic" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                                <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control"></asp:TextBox>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 form-group">
+                                <label>中心地址</label>
+                                <asp:DropDownList ID="ddlShop" runat="server" CssClass="form-control">
+                                    <asp:ListItem>銅鑼灣邊寧頓街18號廣旅集團大廈17樓 </asp:ListItem>
+                                </asp:DropDownList>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 form-group">
+                                <label>預約日期*</label><asp:RequiredFieldValidator ID="valddlDate" runat="server" ErrorMessage="*請輸入" ControlToValidate="ddlDate" SetFocusOnError="true" ForeColor="Red"></asp:RequiredFieldValidator>
+                                <asp:DropDownList ID="ddlDate" runat="server" CssClass="form-control" AppendDataBoundItems="true" AutoPostBack="true">
+                                    <asp:ListItem Value="">請選擇</asp:ListItem>
+                                </asp:DropDownList>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 form-group">
+                                <label>預約時間*</label><asp:RequiredFieldValidator ID="valddlTime" runat="server" ErrorMessage="*請輸入" ControlToValidate="ddlTime" SetFocusOnError="true" ForeColor="Red"></asp:RequiredFieldValidator>
+                                <asp:DropDownList ID="ddlTime" runat="server" CssClass="form-control">
+                                </asp:DropDownList>
+                            </div>
+                            <div class="col-xs-12 form-group">
+                                <asp:CheckBox ID="cbTnc" runat="server" CssClass="agreeTnc" Text="&nbsp;&nbsp;我已閱讀並同意有關條款及細則，及個人資料私隱保護政策" />
+                                <asp:CustomValidator ID="valbtnTeam_tnc" runat="server" ErrorMessage="*請選擇" EnableClientScript="true" ClientValidationFunction="CheckBoxRequired_tnc" ForeColor="Red" SetFocusOnError="true" Display="Dynamic"></asp:CustomValidator>
+                                <script type="text/javascript">
+                                    function CheckBoxRequired_tnc(sender, e) {
+                                        e.IsValid = $(".agreeTnc input:checkbox").is(':checked');
+                                    }
+                                </script>
+                            </div>
+                            <div class="col-xs-12 form-group">
+                                <asp:CheckBox ID="cbOptin" runat="server" CssClass="" Text="&nbsp;&nbsp;本人日後願意收取有關公司或其他聯營機構的宣傳及推廣資訊" />
+                            </div>
+                            <div class="col-xs-12 form-group">
+                                <asp:Button ID="btnSubmit" runat="server" Text="預約" CssClass="btn btn-lg btn-default" Style="background: #bea986; color: #fff; padding-left: 30px; padding-right: 30px;" />
+                                <asp:Label ID="lblSuccess" runat="server" Text="傳送成功，有關職員會儘快聯絡您。" ForeColor="#7E3538" Visible="false"></asp:Label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row background_white" style="padding: 30px 20px;">
+                <div class="col-xs-12 col-sm-7">
+                    <h2 style="color: #7E3538;">ABOUT US</h2>
+                    <h3 class="treatment_tag" style="margin-left: 0; color:#BA925E;"><strong>Revitalise Your Beauty‧Revitalise Your Soul<br />
+                        煥姸美學 · 激發原美</strong></h3>
+                    <p style="color: #58595B;">
+                        reNeu+煥妍美學是以科研為基礎的尊尚醫美集團，我們掌握非凡領先的醫美和抗衰老技術，以及最新的科研趨勢，包括我們獨家研發的Quantum reNeurology<sup>TM</sup>量子重啟系統，配以價值千萬的環球先進科技儀器，融合出多個尖端水平的獨家權威療程，讓您在最高級的美學殿堂之中得享效益，真正擁有集青春、聰穎與美貌於一身的非凡健康，成就美麗人生！
+
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-sm-offset-1">
+                    <h2 style="color: #7E3538;">CONTACT US</h2>
+                    <p style="color: #58595B;">
+                        客户服務熱線: 2180 9787<br />
+                        <br />
+                        電郵： <a href="mailto:info@reneuplus.com">info@reneuplus.com</a><br />
+                        <br />
+                        Facebook：<a href="https://www.facebook.com/reneuplus/" target="_blank">reNeu+ 煥妍美學</a>
+                    </p>
+                </div>
+            </div>
+            <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+                <div class="row copyright">
+                    <div class="col-xs-12">
+                        Copyright © <%= Year(DateTime.Today) %> All Rights Reserved.
+                    </div>
+                </div>
+            </telerik:RadCodeBlock>
+        </div>
+    </footer>
+    <asp:ContentPlaceHolder ID="bodyFoot" runat="server"></asp:ContentPlaceHolder>
+    <script>
+        $(".enquiry-button").click(function () {
+            $('html, body').animate({
+                scrollTop: $(".enquiry-form").offset().top
+            }, 1000);
+        });
+    </script>
+</asp:Content>

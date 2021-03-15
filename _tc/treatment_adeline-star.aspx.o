@@ -1,0 +1,66 @@
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/tc/treatment_tc.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="bodyHead" runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="row">
+        <div class="col-lg-5 col-lg-offset-0 col-sm-5 col-sm-offset-0 col-xs-10 col-xs-offset-1 treatment_img">
+            <img src="../images/treatment_02.png" class="img-thumbnail img-responsive" />
+        </div>
+        <div class="col-lg-6 col-sm-7 col-xs-12">
+            <h1><strong>Adeline Star</strong></h1>
+            <h2><strong>皺紋燙斗，重塑底層肌膚</strong></h2>
+            <p>
+                <strong>結合三大技術</strong>
+            </p>
+            <ul>
+                <li>elōs<sup>TM</sup>專利技術，產生光電協同效應，强化射頻，更精凖控制治療深度</li>
+                <li>Motif<sup>TM</sup>專利滑行技術提供大範圍加熱，有效刺激膠原，發放能量達至最高效能</li>
+                <li>探頭冷凍技術功能，能保護及輕度遲鈍感痛神經末梢，提高療程舒適度</li>
+            </ul>
+            <p>
+                <strong>elōs<sup>TM</sup>光電協同效應</strong>
+            </p>
+        </div>
+    </div>
+    <div class="row" style="padding-top: 30px;">
+        <div class="col-lg-12">
+            <p><strong>雙極射頻 (Bi -polar polarRF energy)</strong></p>
+            <p>有效加熱真皮層，膠原纖維產生時收縮，刺激更多新的膠原質來填補萎縮和流失的膠原蛋白空隙 ，隨著真皮層膠原蛋白不斷新生和重排列，令鬆弛的肌膚變得緊實、飽滿、有效撫平皺紋、改善疤痕、恢復皮膚彈性和光澤 。</p>
+            <p><strong>紅外線 (Infrared energy)</strong></p>
+            <p>
+                紅外光的波長 (700 -2000 nm) 滲透力強，被細胞吸收後，會轉化為熱能，硏究證明有助促進血液循環，強化血管系統，增加肌肉張力及彈性。<br />
+                <br />
+                紅外光不會令細胞加熱，也不會促使黑色素形成，故沒有任何副作用。<br />
+                <br />
+                特設平滑探頭及緊緻探頭，配合不同緊膚更生方案
+            </p>
+            <p>
+                <strong>A. 平滑探頭：</strong>逈用於面頰及頸部位置<br />
+                有效撫平皺紋，回復皮膚彈性光澤<br />
+                <br />
+                <strong>B. 緊緻探頭： </strong>適用於針對紋理問題位置<br />
+                配合滑動摸式，適用於眼部及額頭緊緻眼部肌膚，改善眼袋浮腫，促進血液循環、減淡黑眼圈
+            </p>
+            <p>
+                <storng>預期效果</storng>
+            </p>
+            <ul>
+                <li>提眼尾、 豐顴 肌、平細紋緊全臉尖下巴</li>
+                <li>涵蓋淺層到深的肌膚，使膠原蛋白緊縮、新生和重組</li>
+                <li>刺激細胞代謝，達致修復及改善膚質</li>                
+            </ul>
+            <%--<h3 class="treatment_tag"><strong>肌膚瞬間水潤、彈、滑</strong></h3>--%>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="ContentPlaceHolder2" runat="Server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="bodyFoot" runat="Server">
+</asp:Content>

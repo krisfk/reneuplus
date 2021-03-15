@@ -1,0 +1,84 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/tc/tc.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#layersliderWeb').layerSlider({
+                fitScreenWidth: true,
+                skinsPath: '../layerslider/skins/',
+                showCircleTimer: false,
+                navButtons: false,
+                navStartStop: false
+            });
+
+            $('#layersliderMobile').layerSlider({
+                fitScreenWidth: true,
+                skinsPath: '../layerslider/skins/',
+                showCircleTimer: false,
+                navButtons: false,
+                navStartStop: false
+            });
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="bodyHead" runat="Server">
+    <asp:ContentPlaceHolder ID="bodyHead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="container-fluid treatment">
+        <div class="row main-visual">
+            <div class="col-xs-12 hidden-xs">
+                <div id="layersliderWeb" style="width: 2000px; height: 500px;">
+                    <div class="ls-slide" data-ls="duration: 3000; transition2d: 10;">
+                        <img src="../images/banner_contactus2.jpg" class="ls-bg">
+                    </div>                 
+                </div>
+            </div>
+            <div class="col-xs-12 visible-xs">
+                <div id="layersliderMobile" style="width: 1000px; height: 800px;">
+                    <div class="ls-slide" data-ls="duration: 3000; transition2d: 10;">
+                         <img src="../images/m_banner_contactus2.jpg" class="ls-bg">
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row background_gold color_white treatment_list" style="height:650px;">
+                    <div class="col-lg-6 col-lg-offset-5 col-md-8 col-md-offset-3 col-sm-10 col-sm-offset-1">
+                        <h3>關於我們</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="aboutus.aspx">reNeu+ 煥妍美學 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                            <li><a href="society.aspx">reNeu+ 生命活化學會 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                            <li><a href="contactus.aspx">聯絡我們 <img src="../images/cross_icon.png" alt="." class="cross-right" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row hidden-xs" style="padding-top:10px; padding-bottom:10px;"></div>
+                <div class="row hidden-xs background_deepred color_white">
+                    <div class="col-lg-6 col-lg-offset-5 text-left" style="padding-top:20px; padding-bottom:40px;">
+                        <h3>預約或查詢</h3>
+                        <p class="color_white" style="text-align:justify; line-height:1.8;">
+                            我們明白到每位客人膚質及皮膚問題各有不同，我們專業團隊認真聆聽所需、精準分析皮膚狀況、互相製訂「個人專屬療程組合」，客人參予療程的進展，提高療程透明度，達至至瑧完美的療程效果。歡迎與我們聯絡，我們樂意隨時為您效勞
+                            <img src="../images/cross_icon.png" alt="." class="cross-right" style="position: absolute; right: 15px; bottom: 45px;" />
+                        </p>                        
+                    </div>
+                </div>
+                <div class="row" style="padding-top:10px; padding-bottom:10px;"></div>
+            </div>
+            <div class="col-sm-8 treatment_detail">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>   
+    </div>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="bodyFoot" runat="Server">
+    <asp:ContentPlaceHolder ID="bodyFoot" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+

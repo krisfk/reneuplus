@@ -1,0 +1,89 @@
+﻿<%@ Master Language="VB" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+</script>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>reNeu+ 煥妍美學</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+    <%--<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:800,700,500,400,300" rel="stylesheet">--%>
+    <!-- LayerSlider -->
+    <link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css">
+    <script src="../layerslider/js/greensock.js" type="text/javascript"></script>
+    <script src="../layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+    <script src="../layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-tubeplayer/2.1.0/jquery.tubeplayer.min.js"></script>
+
+    <link href="css/main.css" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43287703-27"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-43287703-27');
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '293741084886687');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+            src="https://www.facebook.com/tr?id=293741084886687&ev=PageView
+&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
+        <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server" />
+        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" />
+        <asp:ContentPlaceHolder ID="bodyHead" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="bodyFoot" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/tc/tc.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#layersliderWeb').layerSlider({
+                fitScreenWidth: true,
+                skinsPath: '../layerslider/skins/',
+                showCircleTimer: false,
+                navButtons: false,
+                navStartStop: false
+            });
+
+            $('#layersliderMobile').layerSlider({
+                fitScreenWidth: true,
+                skinsPath: '../layerslider/skins/',
+                showCircleTimer: false,
+                navButtons: false,
+                navStartStop: false
+            });
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="bodyHead" Runat="Server">
+    <asp:ContentPlaceHolder ID="bodyHead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div class="container-fluid">
+         <div class="row main-visual">
+            <div class="col-xs-12 hidden-xs">
+                <div id="layersliderWeb" style="width: 2000px; height: 500px;">
+                    <div class="ls-slide" data-ls="duration: 3000; transition2d: 10;">
+                        <img src="../images/banner01.jpg" class="ls-bg">
+                    </div>     
+                    <div class="ls-slide" data-ls="duration: 3000; transition2d: 10;">
+                        <img src="../images/banner02.jpg" class="ls-bg">
+                    </div> 
+                    <div class="ls-slide" data-ls="duration: 3000; transition2d: 10;">
+                        <img src="../images/banner03.jpg" class="ls-bg">
+                    </div>                
+                </div>
+            </div>
+            <div class="col-xs-12 visible-xs">
+                <div id="layersliderMobile" style="width: 1000px; height: 800px;">
+                    <div class="ls-slide" data-ls="duration: 3000; transition2d: 10;">
+                         <img src="../images/m_banner01.jpg" class="ls-bg">
+                    </div>
+                    <div class="ls-slide" data-ls="duration: 3000; transition2d: 10;">
+                         <img src="../images/m_banner02.jpg" class="ls-bg">
+                    </div>
+                    <div class="ls-slide" data-ls="duration: 3000; transition2d: 10;">
+                         <img src="../images/m_banner03.jpg" class="ls-bg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="bodyFoot" Runat="Server">
+    <asp:ContentPlaceHolder ID="bodyFoot" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+
