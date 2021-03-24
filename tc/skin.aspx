@@ -848,7 +848,7 @@ border-bottom: 1px solid #ba925e;"></div>
 
   </div>
 
-    <div class="row" style="margin-top: 10px; margin-bottom: 10px">
+    <div class="row" style="margin-top: 10px; margin-bottom: 10px;margin-left:auto;margin-right:auto;width:100%;">
       
       <div class="col-xs-12" style="padding: 20px">
         <div class="tab-content">

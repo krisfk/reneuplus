@@ -17,6 +17,15 @@ body {
 
 h3 {
     margin-bottom: 20px;
+    line-height: normal;
+}
+
+h3 sup {
+    font-size: 17px;
+}
+
+h4 {
+    line-height: normal;
 }
 
 .color_white,
@@ -295,6 +304,11 @@ h3 {
     text-decoration: none;
 }
 
+.video-detail-btn.mobile {
+    bottom: 20px;
+    right: 20px;
+}
+
 .video-detail-btn:hover {
     text-decoration: none;
     color: #fff;
@@ -330,9 +344,89 @@ h3 {
     font-size: 16px !important;
 }
 
+.treatment_detail .q-gender-ul {
+    position: relative !important;
+    margin: 10px 0 0 0;
+}
+
+.treatment_detail .q-gender-li {
+    margin: 0 0 10px 0;
+}
+
+.treatment_detail .q-gender-a {
+    color: #fff;
+    background: #bfaa85;
+    /* border-radius: 20px !important; */
+    border-radius: 0px;
+    font-size: 17px !important;
+    transition: 0.2s all;
+    padding: 5px 20px;
+    display: inherit;
+}
+
+.treatment_detail .q-gender-a:hover {
+    opacity: 0.85 !important;
+    text-decoration: none;
+}
+
+.treatment_detail .q-gender-a:focus {
+    text-decoration: none;
+}
+
 .q-gender-a.male {}
 
 .q-gender-a.female {}
+
+.quantum-btn {
+    background: #bea986;
+    color: #fff;
+    padding: 8px 20px;
+    /* padding-right: 30px; */
+    border-radius: 8px;
+    margin: 0 auto;
+    transition: 0.2s all;
+    margin: 20px 0 0 0;
+    display: inline-block;
+}
+
+.quantum-btn:hover {
+    background: #bea986;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.85;
+}
+
+.quantum-btn:focus {
+    text-decoration: none;
+    background: #bea986;
+    color: #fff;
+}
+
+.more-btn {
+    color: #fff;
+    float: right;
+    margin: 20px 0 0 0;
+    font-weight: bold;
+}
+
+.more-btn:hover,
+.more-btn:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 1450px) {
+    .navbar-default .navbar-nav>li>a {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-default .navbar-nav>li>a {
+        padding: 10px 9px;
+        font-size: 14px;
+    }
+}
 
 @media (max-width: 1024px) {
     .navbar-brand {
@@ -527,11 +621,14 @@ footer .form-group label {
 .treatment .treatment_detail h1 {
     padding-top: 30px;
     color: #6e3934;
+    font-size: 26px;
 }
 
 .treatment .treatment_detail h2 {
     color: #3f2011;
     padding-bottom: 30px;
+    line-height: normal;
+    font-size: 23px;
 }
 
 .treatment .treatment_detail h4 {

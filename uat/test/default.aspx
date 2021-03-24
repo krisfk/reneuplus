@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/tc/tc.master" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/tc/tc2.master" %>
 
     <script runat="server">
     </script>
@@ -16,7 +16,7 @@
                     <div id="layersliderWeb" style="width: 100%">
 
 
-                        <div> <img src="../images/banner01.jpg" class="ls-bg"></div>
+                        <div> <img src="../../images/banner01.jpg" class="ls-bg"></div>
                         <div style="position: relative;background: #000;">
 
                             <a href="./treatment_quantum-video.aspx" class="video-cover-new">
@@ -25,12 +25,12 @@
                             </a>
                             <!-- <div class="video-cover-still"></div> -->
 
-                            <img style="opacity: 0;" src="../images/banner02.jpg" class="ls-bg">
+                            <img style="opacity: 0;" src="../../images/banner02.jpg" class="ls-bg">
 
                             <div id='youtube-video-player'></div>
 
                         </div>
-                        <div> <img src="../images/banner03.jpg" class="ls-bg"></div>
+                        <div> <img src="../../images/banner03.jpg" class="ls-bg"></div>
 
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                     <div id="layersliderMobile" style="">
 
 
-                        <div> <img src="../images/m_banner01A.jpg" class="ls-bg"></div>
+                        <div> <img src="../../images/m_banner01A.jpg" class="ls-bg"></div>
                         <div style="position: relative;background: #000;">
 
                             <a href="./treatment_quantum-video.aspx" class="video-cover-new-m">
@@ -46,66 +46,62 @@
 
                             </a>
                             <!-- <div class="video-cover-m-still"></div> -->
-                            <img style="opacity: 0;" src="../images/m_banner01A.jpg" class="ls-bg">
+                            <img style="opacity: 0;" src="../../images/m_banner01A.jpg" class="ls-bg">
 
                             <div id='youtube-video-player1'></div>
 
                         </div>
-                        <div> <img src="../images/m_banner02A.jpg" class="ls-bg"></div>
+                        <div> <img src="../../images/m_banner02A.jpg" class="ls-bg"></div>
 
                     </div>
                 </div>
             </div>
             <div class="row row-same-height">
 
-                <div class="col-lg-7 col-md-7 col-xs-12 product color_grey" style="background:url('../images/bg_treatment.png') repeat; padding-top:20px;">
+                <div class="col-lg-7 col-md-7 col-xs-12 product color_grey" style="background:url('../../images/bg_treatment.png') repeat; padding-top:20px;">
 
-                    <h1 style="margin-bottom:20px;"><img src="../images/Quantum.png" alt=""></h1>
+                    <h1 style="margin-bottom:20px;"><img src="../../images/Quantum.png" alt=""></h1>
 
                     <div class="row" style="padding-bottom:40px">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-                            <a href="treatment_quantum-touch-female.aspx" class="color_grey">
-                                <img src="../images/m_QRN2.png" alt="." class="img-thumbnail img-responsive">
-                                <br><br>
-                                <img src="../images/btn_know-more.png">
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-                            <a href="treatment_quantum-brain-female.aspx" class="color_grey">
-                                <img src="../images/m_QRN.png" alt="." class="img-thumbnail img-responsive">
-                                <br><br>
-                                <img src="../images/btn_know-more.png">
-                            </a>
-                        </div>
 
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-                            <a href="treatment_spirit-sense-resonance-female.aspx" class="color_grey">
-                                <img src="../images/m_QRN3.png" alt="." class="img-thumbnail img-responsive">
+                            <a href="treatment_quantum-brain-female.aspx" class="color_grey">
+                                <img src="../../images/m_QRN.png" alt="." class="img-thumbnail img-responsive">
                                 <br><br>
-                                <img src="../images/btn_know-more.png">
+                                <img src="../../images/btn_know-more.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+                            <a href="treatment_quantum-touch-female.aspx" class="color_grey">
+                                <img src="../../images/m_QRN2.png" alt="." class="img-thumbnail img-responsive">
+                                <br><br>
+                                <img src="../../images/btn_know-more.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+                            <a href="treatment_spirit-sense-resonance-female.aspx" class="color_grey">
+                                <img src="../../images/m_QRN2.png" alt="." class="img-thumbnail img-responsive">
+                                <br><br>
+                                <img src="../../images/btn_know-more.png">
                             </a>
                         </div>
 
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 col-xs-12 challenge  color_white " style="padding-top:20px;background:#c0a988;">
+                <div class="col-lg-5 col-md-5 col-xs-12 challenge  color_white background_gold" style="padding-top:20px;">
 
 
                     <div class="col-sm-10 col-sm-offset-1 col-xs-12" style="font-size: 19px;padding:0 0 40px 0">
                         <h3 style="line-height: 34px;    font-size: 29px;
                         line-height: 36px;margin-bottom:55px;">reNeu+ 獨家的Quantum reNeurology<sup>TM</sup> <br> 量子重啟系統</h3>
                         通過十年的科學研究和實踐， reNeu+ 煥妍美學獨家研發了Quantum reNeurology<sup>TM</sup>量子重啟系統，能幫助您回復身體內部平衡和進一步提升外在美，達致非凡健康。<br><br> 通過平衡互動，我們的身體機能可以整體提升，達到增強免疫力及自癒力，並進一步回復因年齡而老化的各種機能，從而回復及保持青春、美貌；並令您更聰穎。
-
-                        <a class="more-btn" style="margin-top:50px;" href="./treatment_quantum.aspx">更多資料<img style="position: relative;
-                            top: -2px;
-                            right: -5px;" src="../images/cross_icon.png" alt="." class="cross-right"></a>
                     </div>
 
                 </div>
             </div>
             <div class="row row-same-height">
-                <div class="col-lg-7 col-md-7 col-xs-12 product color_grey" style="background:url('../images/bg_treatment.png') repeat; padding-top:20px;">
-                    <h3><img src="../images/title_treatment.png" alt="尊貴系列" /></h3>
+                <div class="col-lg-7 col-md-7 col-xs-12 product color_grey" style="background:url('../../images/bg_treatment.png') repeat; padding-top:20px;">
+                    <h3><img src="../../images/title_treatment.png" alt="尊貴系列" /></h3>
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                         <%--<ol class="carousel-indicators" style="bottom: 0px;">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active" style="background-color:gray;"></li>
@@ -116,30 +112,30 @@
                                     <div class="row">
                                         <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 text-center">
                                             <a href="treatment_picosure.aspx" class="color_grey">
-                                                <img src="../images/treatment_01.png" alt="." class="img-thumbnail img-responsive">
+                                                <img src="../../images/treatment_01.png" alt="." class="img-thumbnail img-responsive">
                                                 <br /><br />
-                                                <img src="../images/btn_know-more.png" />
+                                                <img src="../../images/btn_know-more.png" />
                                             </a>
                                         </div>
                                         <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 text-center">
                                             <a href="treatment_magrex.aspx" class="color_grey">
-                                                <img src="../images/m02A.png" alt="." class="img-thumbnail img-responsive">
+                                                <img src="../../images/m02A.png" alt="." class="img-thumbnail img-responsive">
                                                 <br /><br />
-                                                <img src="../images/btn_know-more.png" />
+                                                <img src="../../images/btn_know-more.png" />
                                             </a>
                                         </div>
                                         <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 text-center">
                                             <a href="treatment_vzet.aspx" class="color_grey">
-                                                <img src="../images/m03A.png" alt="." class="img-thumbnail img-responsive">
+                                                <img src="../../images/m03A.png" alt="." class="img-thumbnail img-responsive">
                                                 <br /><br />
-                                                <img src="../images/btn_know-more.png" />
+                                                <img src="../../images/btn_know-more.png" />
                                             </a>
                                         </div>
                                         <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 text-center">
                                             <a href="treatment_doublo-smas.aspx" class="color_grey">
-                                                <img src="../images/treatment_03.png" alt="." class="img-thumbnail img-responsive">
+                                                <img src="../../images/treatment_03.png" alt="." class="img-thumbnail img-responsive">
                                                 <br /><br />
-                                                <img src="../images/btn_know-more.png" />
+                                                <img src="../../images/btn_know-more.png" />
                                             </a>
                                         </div>
                                     </div>
@@ -148,7 +144,7 @@
                             <div class="row">
                                 <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 text-center">
                                     <a href="products_ra-805.aspx" class="color_grey">
-                                        <img src="../images/product/RA805.png" alt="." class="img-thumbnail img-responsive">
+                                        <img src="../../images/product/RA805.png" alt="." class="img-thumbnail img-responsive">
                                         <br />
                                         RA805
                                         <br />
@@ -158,7 +154,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 text-center">
                                     <a href="products_ncco1702.aspx" class="color_grey">
-                                        <img src="../images/product/NCCO1702.png" alt="." class="img-thumbnail img-responsive">
+                                        <img src="../../images/product/NCCO1702.png" alt="." class="img-thumbnail img-responsive">
                                         <br />
                                         NCCO1702
                                         <br />
@@ -187,28 +183,20 @@
                             </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 col-xs-12 challenge  background_gold color_white " style="padding-top:20px;">
-
-
-                    <div class="col-sm-10 col-sm-offset-1 col-xs-12" style="font-size: 19px;padding:0 0 40px 0">
-                        <h3 style="line-height: 34px;    font-size: 29px;
-                        line-height: 36px;margin-bottom:35px;">
-                            <img alt="皮秒美8 一發八中 激發原美" style="width: 100%;" src="../images/slogan.png" alt="">
-                            <!-- 皮秒美8 一發八中 激發原美 -->
-                        </h3>
-                        <ul style="padding:0 0 0 20px;margin:0">
-
-                            <li>功能變化多端，應用廣泛</li>
-                            <li>驚艷之處 - 最快激光（100億分之一計算）直達皮膚真皮層</li>
-                            <li>PicoSure<sup>TM</sup> 是世界上第一部755nm皮秒激光榮獲4項美國FDA認證儀器，安全可靠，針對治療色素性病變，配合蜂巢瞬效透鏡，對處理皺紋、凹凸洞，更見成效！</li>
-
-                        </ul>
-                        <a class="more-btn" href="./treatment.aspx">更多資料<img style="position: relative;
-                            top: -2px;
-                            right: -5px;" src="../images/cross_icon.png" alt="." class="cross-right"></a>
-
+                <div class="col-lg-5 col-md-5 col-xs-12 challenge background_gold color_white" style="padding-top:20px;">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+                            <img src="../../images/slogan.png" alt="." class="img-responsive" />
+                            <br /><br />
+                            <img src="../../images/slogan_functions.png" alt="." class="img-responsive" />
+                            <br /><br />
+                            <div class="text-right">
+                                <a href="treatment.aspx">
+                                    <img src="../../images/btn_more.png" alt="." class="text-right" /></a>
+                            </div>
+                            <br /><br />
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>

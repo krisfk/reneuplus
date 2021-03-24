@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/uat/about_tc.master"
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/tc/about_tc.master"
 AutoEventWireup="false" CodeFile="society.aspx.vb" Inherits="tc_society" %>
 
     <script runat="server"></script>

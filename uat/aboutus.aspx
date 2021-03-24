@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/uat/about_tc.master" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/tc/about_tc.master" %>
 
     <script runat="server"></script>
 
@@ -58,7 +58,7 @@
                     <br><br>
                     <strong style="color: #6e3934;">
 
-                    Our Centre<br> Well-equipped in Style<br> 優越體貼 以客為尊</strong><br><br> reNeu+持續不斷投放資源並引入嶄新卓越的科學儀器，務求我們每一位尊貴的客人，都在舒適、高雅的環境之中， 樂享我們優秀、專業的服務， 體驗我們各種獨家療程達成的理想效果！
+                    Our Centre<br> Well-equipped in Style<br> 優越體貼 以客為尊</strong><br><br> reNeu+持續不斷投放資源並引入嶄新卓越的科學儀器，務求我們每一位尊貴的客人，都在舒適、高雅的環境之中， 樂享我們優秀、專業的服務， 體驗我們各種獨家療程所達成的理想效果！
                     <br><br>
 
                     <strong style="color: #6e3934;">

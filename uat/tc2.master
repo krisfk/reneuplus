@@ -37,17 +37,17 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="default.aspx">
-                    <img src="../images/reneu-plus.png" /></a>
+                    <img src="../../images/reneu-plus.png" /></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right"> 
                     <li><a href="aboutus.aspx">公司宗旨</a></li>
                     <li><a href="treatment_quantum-brain-female.aspx">量子系列</a></li>
                     <li><a href="treatment_picosure.aspx">尊貴系列</a></li>
-                    <li><a href="skin.aspx">煥妍智庫</a></li> 
+                    <li><a href="skin.aspx">重啟知庫</a></li> 
                     <li><a href="contactus.aspx">聯絡我們</a></li>
                     <li><a  style="padding-right:0;" href="https://www.facebook.com/reneuplus/" target="_blank" style="color: #7f3638;">Facebook <i class="fa fa-facebook-square" aria-hidden="true" style="color: #7f3638;"></i></a></li>
-                    <li><a href="https://wa.me/85263889984" target="_blank">Whatsapp <img class="wts-icon" style="" src="../images/wts-icon.png"></a></li>
+                    <li><a href="https://wa.me/85263889984" target="_blank">Whatsapp <img class="wts-icon" style="" src="../../images/wts-icon.png"></a></li>
                     <%--<li><a href="https://twitter.com/LimitedRht" target="_blank" style="color:#5db4f7;"><i class="fa fa-twitter" aria-hidden="true" style="color:#5db4f7;"></i> Twitter</a></li>--%>
                 </ul>
             </div>
@@ -61,10 +61,10 @@
 <asp:Content ID="Content4" ContentPlaceHolderID="bodyFoot" runat="Server">
     <footer class="footer">
         <div class="container-fluid">
-            <div class="row enquiry-form" style="background: url('../images/bg_enquiry.png'); padding: 30px 20px;">
+            <div class="row enquiry-form" style="background: url('../../images/bg_enquiry.png'); padding: 30px 20px;">
                 <div class="col-xs-12 col-md-8 col-md-offset-2">
                     <div class="jumbotron" style="background: #e8d6b5;">
-                        <img src="../images/title_enquiry.png" class="img-responsive" />
+                        <img src="../../images/title_enquiry.png" class="img-responsive" />
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 form-group">
                                 <label>姓名*</label><asp:RequiredFieldValidator ID="valtxtName" runat="server" ErrorMessage="*請輸入" ControlToValidate="txtName" SetFocusOnError="true" ForeColor="Red"></asp:RequiredFieldValidator>

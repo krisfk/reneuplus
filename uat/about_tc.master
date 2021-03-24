@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" MasterPageFile="~/uat/tc.master" %>
+﻿<%@ Master Language="VB" MasterPageFile="~/tc/tc.master" %>
 
 <script runat="server">
 
@@ -62,10 +62,9 @@
                 <div class="row hidden-xs" style="padding-top:10px; padding-bottom:10px;"></div>
                 <div class="row hidden-xs background_deepred color_white">
                     <div class="col-lg-6 col-lg-offset-5 text-left" style="padding-top:20px; padding-bottom:40px;">
-                        <h3>預約或查詢</h3>
+                        <h3>歡迎預約或查詢</h3>
                         <p class="color_white" style="text-align:justify; line-height:1.8;">
-                            我們明白到每位客人膚質及皮膚問題各有不同，我們專業團隊認真聆聽所需、精準分析皮膚狀況、互相製訂「個人專屬療程組合」，客人參予療程的進展，提高療程透明度，達至至瑧完美的療程效果。歡迎與我們聯絡，我們樂意隨時為您效勞
-                        </p>                        
+我們明白每位客人的情況、問題及膚質等等各有不同，作為您的專業團隊，我們當然會認真聆聽所需，並精準分析種種相關狀況，從而與您共同製訂您的「個人專屬療程組合」，請您積極參予療程的進展，務求達成至瑧完美的療程效果。歡迎與我們聯絡，我們十分樂意隨時為您效勞！                        </p>                        
                     </div>
                 </div>
                 <div class="row" style="padding-top:10px; padding-bottom:10px;"></div>

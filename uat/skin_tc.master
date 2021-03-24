@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" MasterPageFile="~/uat/tc.master" %>
+﻿<%@ Master Language="VB" MasterPageFile="~/tc/tc.master" %>
 
 <script runat="server">
 
@@ -15,15 +15,18 @@
     <div class="container-fluid">
        
         <div class="row main-visual">
-               <div class="col-xs-12 hidden-xs">
+                <div class="col-xs-12 hidden-xs">
                     <div id="layersliderWeb" style="width: 100%">
 
 
                         <div> <img src="../images/banner01.jpg" class="ls-bg"></div>
                         <div style="position: relative;background: #000;">
 
-                            <a href="javascript:void(0);" class="video-cover"></a>
-                            <div class="video-cover-still"></div>
+                            <a href="./treatment_quantum-video.aspx" class="video-cover-new">
+
+                                <div class="video-detail-btn">詳細介紹</div>
+                            </a>
+                            <!-- <div class="video-cover-still"></div> -->
 
                             <img style="opacity: 0;" src="../images/banner02.jpg" class="ls-bg">
 
@@ -41,8 +44,11 @@
                         <div> <img src="../images/m_banner01A.jpg" class="ls-bg"></div>
                         <div style="position: relative;background: #000;">
 
-                            <a href="javascript:void(0);" class="video-cover-m"></a>
-                            <div class="video-cover-m-still"></div>
+                            <a href="./treatment_quantum-video.aspx" class="video-cover-new-m">
+                                <div class="video-detail-btn mobile">詳細介紹</div>
+
+                            </a>
+                            <!-- <div class="video-cover-m-still"></div> -->
                             <img style="opacity: 0;" src="../images/m_banner01A.jpg" class="ls-bg">
 
                             <div id='youtube-video-player1'></div>
@@ -54,7 +60,7 @@
                 </div>
             </div>
     </div>
-   <script type="text/javascript">
+<script type="text/javascript">
             $(function() {
 
                 var curr_slide = 0;
@@ -85,8 +91,8 @@
                 });
 
                 $("#youtube-video-player").tubeplayer({
-                    initialVideo: "AfWrFrItKOc",
-                    // AfWrFrItKOc
+                    initialVideo: "NpEaq4jF77A",
+                    // NpEaq4jF77A
                     // Pahk53QBw_k
                     preferredQuality: "hd720",
                     controls: 0,
@@ -107,7 +113,7 @@
 
                 });
                 $("#youtube-video-player1").tubeplayer({
-                    initialVideo: "AfWrFrItKOc",
+                    initialVideo: "8ug8qHOTSMo",
                     preferredQuality: "hd720",
                     controls: 0,
                     playsinline: true,
@@ -226,18 +232,21 @@
 
 
                         $("#youtube-video-player").tubeplayer("play", {
-                            id: "AfWrFrItKOc",
+                            id: "NpEaq4jF77A",
                             time: 0
                         });
-                        $('.video-cover-still').css({
-                            'opacity': '1'
-                        });
-                        $("#youtube-video-player").tubeplayer("pause");
-                        $('.video-cover').removeClass('playing');
-                        $('.video-cover').css({
-                            'background-position': '50% 50%',
-                            'background-size': '80px'
-                        })
+                        $("#youtube-video-player").tubeplayer("mute");
+
+
+                        // $('.video-cover-still').css({
+                        //     'opacity': '1'
+                        // });
+                        $("#youtube-video-player").tubeplayer("play");
+                        // $('.video-cover').removeClass('playing');
+                        // $('.video-cover').css({
+                        //     'background-position': '50% 50%',
+                        //     'background-size': '80px'
+                        // })
 
                         $('#layersliderWeb').slick('slickSetOption', 'autoplaySpeed', 99999999, true);
 
@@ -253,18 +262,22 @@
 
 
                         $("#youtube-video-player1").tubeplayer("play", {
-                            id: "AfWrFrItKOc",
+                            // id: "NpEaq4jF77A",
+                            id: "8ug8qHOTSMo",
                             time: 0
                         });
-                        $('.video-cover-m-still').css({
-                            'opacity': '1'
-                        });
-                        $("#youtube-video-player1").tubeplayer("pause");
-                        $('.video-cover-m').removeClass('playing');
-                        $('.video-cover-m').css({
-                            'background-position': '50% 50%',
-                            'background-size': '80px'
-                        })
+                        $("#youtube-video-player1").tubeplayer("mute");
+                        $("#youtube-video-player1").tubeplayer("play");
+
+                        // $('.video-cover-m-still').css({
+                        //     'opacity': '1'
+                        // });
+                        // $("#youtube-video-player1").tubeplayer("pause");
+                        // $('.video-cover-m').removeClass('playing');
+                        // $('.video-cover-m').css({
+                        //     'background-position': '50% 50%',
+                        //     'background-size': '80px'
+                        // })
 
                         $('#layersliderMobile').slick('slickSetOption', 'autoplaySpeed', 99999999, true);
 

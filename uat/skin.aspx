@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/uat/skin_tc.master" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/tc/skin_tc.master" %>
 
     <script runat="server"></script>
 
@@ -165,16 +165,18 @@
                             </h4>
                             <select class="form-control" id="dropdown4">
             <option>選擇問題</option>
-            <option value="#c_1">I. 增進兩性生活</option>
-            <!-- <optgroup label="II. 面黃血虛是內分泌失調？重金屬過量？">
-              <option value="#c_2a">A. 內分泌失調與骨盆底肌鬆弛</option>
-              <option value="#c_2b">B. 重金屬過量的禍害</option>
-            </optgroup> -->
-            <option value="#c_3">II. 不再尿滲/小便不暢</option>
-            <option value="#c_4">III. 避免子宮/膀胱脫垂</option>
-            <option value="#c_5">IV. 改善各種痛症/麻痺</option>
-            <option value="#c_6">V. 您的任何醫美療程皆可增值2倍或更多！</option>
+            <option value="#c_1">I. 男士更年期</option>
+            <option value="#c_2">II. 女士更年期</option>
+            <option value="#c_3">III. 增進兩性生活</option>
+            <option value="#c_4">IV. 改善早洩/前列腺問題</option>
+            <option value="#c_5">V. 不再尿滲/小便不暢</option>
+            <option value="#c_6">VI. 避免子宮/膀胱脫垂</option>
+            <option value="#c_7">VII. 改善各種痛症/麻痺</option>
+            <option value="#c_8">VIII. 您的任何醫美療程皆可增值2倍或更多！</option>
+
+        
           </select>
+
                             <br />
                         </div>
                     </div>
@@ -252,22 +254,17 @@
                         <option>選擇問題</option> 
 
                         <option value="#f_1">I.	內分泌失調即是荷爾蒙失調</option>
-                        <option value="#f_2">II.	守護妳終生美麗的女性荷爾蒙</option>
-                        <option value="#f_3">III.	女性荷爾蒙的平衡至重要</option>
-                        <option value="#f_4">IV.	盆底肌鬆弛可能是主因</option>
+                        <option value="#f_2">II.	守護女士終生美麗的女性荷爾蒙</option>
+                        <option value="#f_3">III.	維護你終生功能的男性荷爾蒙</option>
+                  
+                        <option value="#f_4">IV.	女性荷爾蒙的平衡至重要</option>
+                        <option value="#f_5">V.	男性荷爾蒙的平衡是關鍵</option>
 
-                        <!-- <option value="#f_1">I.	內分泌失調即是荷爾蒙失調</option>
-                        <option value="#f_1a">&nbsp;	A. 荷爾蒙有什麼作用?</option>
-                        <option value="#f_1b">&nbsp;	B. 常見的內分泌失調可能引發什麼？</option>
-                        <option value="#f_2">II.	守護妳終生美麗的女性荷爾蒙</option>
-                        <option value="#f_2a">&nbsp;	A. 兩種荷爾蒙相生相剋</option>
-                        <option value="#f_2b">&nbsp;	B. 隨年齡變化的影響</option>
-                        <option value="#f_3">III.	女性荷爾蒙的平衡至重要</option>
-                        <option value="#f_3a">&nbsp;	A. 女性荷爾蒙失衡可能引起什麼問題？</option>
-                        <option value="#f_3b">&nbsp;	B. 問題改善從愛自己出發</option>
+                        <option value="#f_6">VI.	盆底肌鬆弛可能是女士內分泌失調的主因</option>
+                        <option value="#f_7">VII.	盆底肌鬆弛亦會大大影響男士內分泌失調</option>
 
-                        <option value="#f_4">IV.	盆底肌鬆弛可能是主因</option>
-                        -->
+
+                            
 
                       </select>
 
@@ -643,45 +640,71 @@
       <div style="background: #fbf8f1; padding: 10px 20px; height: 100%">
         <div class="row equal" style="margin: 0; margin-bottom: 20px">
           <div class="col-sm-12" style="padding: 0">
+           
+            
+            
+            
+            
+           
             <h4>
               <strong
                 ><a href="#c_1" role="tab" data-toggle="tab"
-                  >I. 增進兩性生活</a
+                  >I. 男士更年期</a
                 ></strong
               >
             </h4>
-            <!-- <h4><strong>II. 面黃血虛是內分泌失調？重金屬過量？</strong></h4>
-            <a href="#c_2a" role="tab" data-toggle="tab"
-              >A. 內分泌失調與骨盆底肌鬆弛</a
-            ><br />
-            <a href="#c_2b" role="tab" data-toggle="tab"
-              >B. 重金屬過量的禍害</a
-            ><br /> -->
+
+            <h4>
+              <strong
+                ><a href="#c_2" role="tab" data-toggle="tab"
+                  >II. 女士更年期</a
+                ></strong
+              >
+            </h4>
+
             <h4>
               <strong
                 ><a href="#c_3" role="tab" data-toggle="tab"
-                  >II. 不再尿滲/小便不暢</a
+                  >III. 增進兩性生活</a
                 ></strong
               >
             </h4>
             <h4>
               <strong
                 ><a href="#c_4" role="tab" data-toggle="tab"
-                  >III. 避免子宮/膀胱脫垂</a
+                  >IV. 改善早洩/前列腺問題</a
                 ></strong
               >
             </h4>
             <h4>
               <strong
                 ><a href="#c_5" role="tab" data-toggle="tab"
-                  >IV. 改善各種痛症/麻痺</a
+                  >V. 不再尿滲/小便不暢</a
+                ></strong
+              >
+            </h4>
+           
+
+            
+
+            <h4>
+              <strong
+                ><a href="#c_6" role="tab" data-toggle="tab"
+                  >VI. 避免子宮/膀胱脫垂</a
                 ></strong
               >
             </h4>
             <h4>
               <strong
-                ><a href="#c_6" role="tab" data-toggle="tab"
-                  >V. 您的任何醫美療程皆可增值2倍或更多！</a
+                ><a href="#c_7" role="tab" data-toggle="tab"
+                  >VII. 改善各種痛症/麻痺</a
+                ></strong
+              >
+            </h4>
+            <h4>
+              <strong
+                ><a href="#c_8" role="tab" data-toggle="tab"
+                  >VIII. 您的任何醫美療程皆可增值2倍或更多！</a
                 ></strong
               >
             </h4>
@@ -772,6 +795,14 @@ border-bottom: 1px solid #ba925e;"></div>
       <div style="background: #fbf6f1; padding: 10px 20px; height: 100%">
         <div class="row equal" style="margin: 0; margin-bottom: 20px">
           <div class="col-sm-12" style="padding: 0">
+
+            <!-- I.	內分泌失調即是荷爾蒙失調
+II	守護女士終生美麗的女性荷爾蒙(改咗小題)
+III.維護你終生功能的男性荷爾蒙 (新加,未得)
+IV.	女性荷爾蒙的平衡至重要
+V. 男性荷爾蒙的平衡是關鍵 
+VI.	盆底肌鬆弛可能是女士內分泌失調的主因(改咗小題)
+VII.	盆底肌鬆弛亦會大大影響男士內分泌失調(新加,未得) -->
             <h4>
               <strong
                 ><a href="#f_1" role="tab" data-toggle="tab"
@@ -780,58 +811,58 @@ border-bottom: 1px solid #ba925e;"></div>
                 ></strong
               >
             </h4>
-            <!-- <div style="height:1px;margin-bottom:9px;
-                                border-bottom: 1px solid #ba925e;"></div>
-
-
-
-            <a href="#f_1a" role="tab" data-toggle="tab">A.	荷爾蒙有什麼作用?</a><br />
-                                <a href="#f_1b" role="tab" data-toggle="tab">B.	常見的內分泌失調可能引發什麼？</a><br />
- -->
-
-                                <h4>
-                                    <strong><a href="#f_2" role="tab" data-toggle="tab"
-                  >II	守護妳終生美麗的女性荷爾蒙
-
-                  </a
-                ></strong
-              >
-            </h4>
-            <!-- <div style="height:1px;margin-bottom:9px;
-                                border-bottom: 1px solid #ba925e;"></div>
-            <a href="#f_2a" role="tab" data-toggle="tab">A.	兩種荷爾蒙相生相剋
-
-            </a><br />
-            <a href="#f_2b" role="tab" data-toggle="tab">B.	隨年齡變化的影響
-
-
-            </a><br /> -->
-
             <h4>
-              <strong
-                ><a href="#f_3" role="tab" data-toggle="tab"
-                  >III.	女性荷爾蒙的平衡至重要
+                                    <strong><a href="#f_2" role="tab" data-toggle="tab"
+                  >II.	守護女士終生美麗的女性荷爾蒙
 
                   </a
                 ></strong
               >
             </h4>
-            <!-- <div style="height:1px;margin-bottom:9px;
-                                border-bottom: 1px solid #ba925e;"></div>
-            <a href="#f_3a" role="tab" data-toggle="tab">A.	女性荷爾蒙失衡可能引起什麼問題？
+            <h4>
+              <strong><a href="#f_3" role="tab" data-toggle="tab"
+            >III. 維護你終生功能的男性荷爾蒙
 
-            </a><br />
-            <a href="#f_3b" role="tab" data-toggle="tab">            B.	問題改善從愛自己出發
-
-
-            </a><br /> -->
-
-
-
+            </a
+            ></strong
+            >
+            </h4>
+            
+      
             <h4>
               <strong
                 ><a href="#f_4" role="tab" data-toggle="tab"
-                  >IV.	盆底肌鬆弛可能是主因
+                  >IV.	女性荷爾蒙的平衡至重要
+
+                  </a
+                ></strong
+              >
+            </h4>
+            
+            <h4>
+              <strong
+                ><a href="#f_5" role="tab" data-toggle="tab"
+                  >V.	男性荷爾蒙的平衡是關鍵
+
+                  </a
+                ></strong
+              >
+            </h4>
+
+            <h4>
+              <strong
+                ><a href="#f_6" role="tab" data-toggle="tab"
+                  >VI.	盆底肌鬆弛可能是女士內分泌失調的主因
+
+                  </a
+                ></strong
+              >
+            </h4>
+
+            <h4>
+              <strong
+                ><a href="#f_7" role="tab" data-toggle="tab"
+                  >VII.	盆底肌鬆弛亦會大大影響男士內分泌失調
 
                   </a
                 ></strong
@@ -848,7 +879,7 @@ border-bottom: 1px solid #ba925e;"></div>
 
   </div>
 
-    <div class="row" style="margin-top: 10px; margin-bottom: 10px">
+    <div class="row" style="margin-top: 10px; margin-bottom: 10px;width:100%;margin-left:auto;margin-right:auto;">
       
       <div class="col-xs-12" style="padding: 20px">
         <div class="tab-content">
@@ -905,13 +936,13 @@ border-bottom: 1px solid #ba925e;"></div>
                                     <strong style="color: #ba925e">聰穎</strong>
                                     <ul>
                                         <li>激活您的大腦機能，令您思想更聰穎。</li>
-                                        <li>情緒更穩定、大幅提升故事的精準度、效率及個人表現、反應更敏捷。</li>
+                                        <li>情緒更穩定，大幅提升做事的精準度、效率及個人表現，反應更敏捷。</li>
                                         <li>令您擁有個人的清晰思路，讓您更靈活地解決複雜的問題。</li>
                                     </ul>
                                     <strong style="color: #ba925e">美貌</strong>
                                     <ul>
                                         <li>保持年輕的外貌，容光煥發，吸引別人的注意目光。</li>
-                                        <li>讓你由內而外散發信心與活力，提升個人的魅力。</li>
+                                        <li>讓您由內而外散發信心與活力，提升個人的魅力。</li>
                                     </ul>
                                     <br> 誠然，身心愉快就能擁有真正青春和美貌，自然容光煥發，予人年輕亮麗的感覺，提升個人的魅力。
                                     <br><br> reNeu+煥妍美學是以科研為基礎的尊尚醫美集團，我們掌握非凡先進的醫美及抗衰老技術及最新的科研趨勢。通過使用我們的獨家療程，不論您的年齡及背景，都可以擁有集青春、聰穎與美貌於一身的非凡健康！
@@ -929,8 +960,8 @@ border-bottom: 1px solid #ba925e;"></div>
                                     <ul>
 
 
-                                        <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                        <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                        <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                        <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                         <li><a href="treatment_picosure.aspx">靈・感‧共振療程</a></li>
 
 
@@ -960,9 +991,9 @@ border-bottom: 1px solid #ba925e;"></div>
 
                                 <ul>
 
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -988,9 +1019,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1021,13 +1052,13 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #ba925e">聰穎</strong>
                                 <ul>
                                     <li>激活您的大腦機能，令您思想更聰穎。</li>
-                                    <li>情緒更穩定、大幅提升故事的精準度、效率及個人表現、反應更敏捷。</li>
+                                    <li>情緒更穩定、大幅提升做事的精準度、效率及個人表現、反應更敏捷。</li>
                                     <li>令您擁有個人的清晰思路，讓您更靈活地解決複雜的問題。</li>
                                 </ul>
                                 <strong style="color: #ba925e">美貌</strong>
                                 <ul>
                                     <li>保持年輕的外貌，容光煥發，吸引別人的注意目光。</li>
-                                    <li>讓你由內而外散發信心與活力，提升個人的魅力。</li>
+                                    <li>讓您由內而外散發信心與活力，提升個人的魅力。</li>
                                 </ul>
                                 <br> 誠然，身心愉快就能擁有真正青春和美貌，自然容光煥發，予人年輕亮麗的感覺，提升個人的魅力。
                                 <br><br> reNeu+煥妍美學是以科研為基礎的尊尚醫美集團，我們掌握非凡先進的醫美及抗衰老技術及最新的科研趨勢。通過使用我們的獨家療程，不論您的年齡及背景，都可以擁有集青春、聰穎與美貌於一身的非凡健康！
@@ -1039,9 +1070,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1093,9 +1124,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1121,9 +1152,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1160,9 +1191,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1198,9 +1229,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1231,9 +1262,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1266,9 +1297,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1292,9 +1323,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1317,9 +1348,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1364,7 +1395,7 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br><br> 這中球量子腦同時是控制人體各大系統的控制中心，也就是各大系統均由量子腦指揮的量子細胞所控制，彼此以共振的方式來傳遞訊息和能量。我們reNeu+獨家的Quantum reNeurology<sup>TM</sup>量子重啟系統，正是先以「量子活腦療程」來促成基礎效益，即是提升中球量子腦的功能，令腦神經系統達致平衡與一致性。
                                 <br><br> 以血清素為例，這是一種神經傳遞物質，可調節食慾、睡眠、記憶力等，最重要是能夠調節心情，抗抑鬱並帶來快樂和幸福的感覺! 而它對心血管系統的作用更非常複雜，從量子場層面來看，其中一個重要的功能是當帶有較高能量的血清素引發共振時，會令心臟產生強而有力的收縮，不但把血液輸送到全身，並分泌出多種荷爾蒙，主要包括：血管舒張肽(Vessel dilator)、長效利鈉利尿肽(LANP)、利鉀利尿肽(KP)及心房利鈉肽(ANP)等，這些荷爾蒙既各有功能，同時彼此的相互作用能有效提升體魄健康。
                                 <br><br> 而藉着激活腦區，便可促進量子細胞的高頻共振以激活分子細胞，讓組織和機能回復正常運作，各種循環及新陳代謝良好，重啟青春活力！
-                                <br><br> 總括而言，肉眼看不見的量子細胞是分子細胞的能量場，整體控制中心就在大腦。reNeu+獨家Quantum reNeurology<sup>TM</sup> 量子重啟系統的「量子活腦療程」，正是啟動正能量之源，讓您激發、重啟、提升整體機能，從而擁有青春、聰穎、美貌；以至非凡健康！
+                                <br><br> <strong style="color: #6e3934">總括而言，肉眼看不見的量子細胞是分子細胞的能量場，整體控制中心就在大腦。reNeu+獨家Quantum reNeurology<sup>TM</sup> 量子重啟系統的「量子活腦療程」，正是啟動正能量之源；讓您激發、重啟、提升整體機能，從而擁有青春、聰穎、美貌；以至非凡健康！</strong>
 
                                 <br><br>
 
@@ -1372,9 +1403,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
 
@@ -1400,9 +1431,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1427,9 +1458,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -1457,9 +1488,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
 
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
 
 
                                 </ul>
@@ -2337,7 +2368,7 @@ border-bottom: 1px solid #ba925e;"></div>
               </li>
               <li>
    
-                <a href="treatment_quantum-touch.aspx">量子共振療程</a>
+                <a href="treatment_quantum-touch-female.aspx">量子共振療程</a>
 
                                     </li>
                                 </ul>
@@ -2368,7 +2399,7 @@ border-bottom: 1px solid #ba925e;"></div>
                 >
               </li>
               <li>
-                <a href="treatment_quantum-touch.aspx"
+                <a href="treatment_quantum-touch-female.aspx"
                   >量子共振療程</a
                 >
               </li>
@@ -2479,7 +2510,7 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
                                     <li><a href="treatment_magrex.aspx">煥肌青春儀</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
 
                                 </ul>
                             </div>
@@ -2774,7 +2805,156 @@ border-bottom: 1px solid #ba925e;"></div>
                                 </ul>
                             </div>
                             <div role="tabpanel" class="tab-pane fade in" id="c_1">
-                                <h3>五、男女回春 >> I. 增進兩性生活</h3>
+                                <h3>五、男女回春 >> I. 男士更年期</h3>
+                                許多人都會知道女士一般到了45-55歲便步入「更年期」，可能會有因為「收經」及「更年期症候群」而帶來的身心健康問題，大家卻甚少提及「男士更年期」!事實上，人人都會因應年齡增長而出現荷爾蒙變化的， 只因男士不存在「停經」~女士才有的、顯示更年期已屆的訊號，症狀也不像女士那麼明顯，故此臨床上往往不易確定「男士更年期」的發生及過程。
+                                <br><br>其實男士踏入40歲之後，男性荷爾蒙~主要是雄性激素(androgen，即睪固酮，又叫睪酮、睪丸素等)的分泌就會隨年齡增長而遞減，其分泌量/濃度逐漸降低，便會引起生理和心理出現相應的變化，產生了與女士更年期部份類似的不適症狀，這過程一般可能會延續5-15年，因人而異。
+                                <br><br>
+                                <h4 style="color: #6e3934; font-weight: bold">A. 您正處於「男士更年期」？
+                                </h4>
+                                一般而言，男士更年期比女士推遲10年左右才出現，即大約在55-65歲之間，但有統計顯示：大約有30%的40至70歲男性會出現更年期的臨床症狀。
+                                <br><br> 美國聖路易大學(St. Louis University)的約翰‧莫利博士(John E. Morley)在其著作(2000年)上指出：男士在老化的同時，睪固酮的含量會降低，這是造成個人出現認知功能、體力、肌力、骨骼密度及性慾降低的原因。
+                                <br><br> 莫利博士還設計了一份簡單的問卷，可讓大家用作睪固酮不足的自我篩檢，請您老實地回答以下10條問題：
+
+                                <ol>
+
+                                    <li>您是否有性慾(性衝動)降低的現象？</li>
+                                    <li>您是否覺得比較沒有元氣(活力) ？</li>
+                                    <li>您是否有體力變差或耐受力下降的現象？</li>
+                                    <li>您的身高是否有變矮？</li>
+                                    <li>您是否覺得生活變得比較沒樂趣？</li>
+                                    <li>您是否覺得悲傷或沮喪？</li>
+                                    <li>您的勃起功能是否較不堅挺？</li>
+                                    <li>您是否覺得運動能力變差？</li>
+                                    <li>您是否在晚餐後會打瞌睡？</li>
+                                    <li>您是否有工作表現不佳的現象？</li>
+                                </ol>
+                                如果問題1 或 7 回答「是」，而且(或是)有任何3條問題回答「是」，即建議您應該接受進一步的檢查，以確定是否有睪固酮缺乏的情形，以及有否出現男性更年期的症狀。
+                                <br><br>
+                                <h4 style="color: #6e3934; font-weight: bold">B. 男士更年期的症狀有哪些？</h4>
+                                有研究指男性荷爾蒙一般在20-30歲達高峰，往後就漸漸下降，50-60歲時下降更明顯，但男性更年期因過程變化不明顯而容易被忽略而已。此外，有些人即使體內男性荷爾蒙降低了，也沒有任何不適症狀出現的。
+                                <br><br> 一般而言，男士更年期的發病年齡在55-65歲左右，臨床症狀有輕有重，輕者甚至毫不覺察，重則影響生活及工作。
+                                <br><br> 早在1939年，兩位美國醫生海勒(Dr. Carl Heller)和馬亞思(Dr. Gordon Myers)已提出了「男性更年期」的概念；亦用這一詞彙來描述發生在中、老年男性身上的不適症狀。他們在一些40-70歲的男性身上，同時或先後發現有以下症狀：精神緊張或抑鬱、易於疲倦、記憶力下降、注意力不集中、失眠、陣發性潮熱、出汗、性欲下降和勃起功能障礙等，海勒把這一現象稱為「男性更年期綜合症」。
+                                <br><br> 所謂「更年期」，即是身體各樣機能及器官已進入老化的階段，這些改變是逐漸發生的，所以大多數人不自覺或後知後覺，相關的症狀現綜合如下：
+                                <br><br> 1. 肌膚老化：一般從臉部的皺紋開始察覺，繼而頸部及手腳的皮膚也會日漸鬆弛下垂。這可能是脂肪與彈性組織逐漸減少所致。
+                                <br><br> 2. 性功能減退：因性腺功能逐漸降低，導致性慾淡漠以至消失；又或生殖器官老化出現陽痿、早洩、力不從心的問題，這些更會嚴重影響性格、情緒和思維，出現煩躁、易怒，缺乏自信，從而容易與伴侶以至家人及朋友發生磨擦。
+                                <br><br> 3. 情緒問題：腦是神經系統的中樞，隨著身體機能的老化，腦組織也會逐漸萎縮；神經細胞、神經纖維和感受器官細胞數量都會慢慢減少，有可能出現精神與神經症狀：如神經過敏、急躁、倦怠；常有壓抑感；記憶力、思考力和集中力減退；失眠；帶有孤獨、恐怖感；缺乏自信等等；加上性功能出現障礙的話，負面情緒會變本加厲，例如出現沮喪、憂鬱、無助；因而可能常跟太太吵架，看孩子不順眼；對工作又提不起勁，喪失積極態度，逃避壓力等。
+                                <br><br> 4. 血管調節及其他荷爾蒙分泌失常：有時會渾身發熱(陣發性潮熱)；燥熱不安、頭痛、眩暈、心悸等。
+                                <br><br> 5. 肝腎陰虛：容易疲倦乏力，腰酸背痛，耳鳴、盜汗，面赤升火，手足心熱，口乾咽燥。
+                                <br><br> 6. 泌尿系統問題：約50歲左右，人體的腎小球濾過率將逐漸減退，血中尿素氮開始上升，腎小管功能明顯降低，加上相關肌肉鬆弛，便常自覺夜間尿多，尿頻或殘尿感等。
+                                <br><br> 7. 前列腺增生：亦叫前列腺肥大；也就是變大了的前列腺會壓迫包圍在它其中的尿道，刺激尿道並使膀胱出口梗阻而出現以尿頻、尿急為代表的儲尿期症狀；還有排尿費力、尿線變細、尿分叉和尿滴瀝等排尿期症狀。
+                                <br><br> 8. 心血管病患：心臟可能出現肥大、心內膜增厚的現象；又或血管彈性變差、變硬、變窄，從而出現動脈硬化、心絞痛等問題。
+                                <br><br> 9. 消化力減弱及脂肪積聚：消化器道平滑肌的纖維及腺體會逐漸萎縮，胃粘膜也會變薄，而結腸及胃腔則會慢慢擴大，失去彈性，容易造成消化不良及便秘等。同時，新陳代謝亦變差，脂肪更易積聚，正所謂「中年發福」，出現「啤酒肚」(中央肥胖)。
+
+                                <br><br> 10. 骨骼及肌肉老化：男性在55歲至65歲起(女性在35至45歲起)，骨骼組織即加速流失，使骨骼中海綿狀小孔增多，導致骨質疏鬆而變軟或變脆，加上肋間肌等肌肉亦漸漸萎縮，可能出現佝僂或駝背等現象；又或容易跌倒。而且體力大不如前、易倦怠、肌肉酸痛、關節僵硬，身高下降(矮了)；甚至全身不適。
+                                <br><br>
+                                <h4 style="color: #6e3934; font-weight: bold">C. 哪些男士容易出現「男性更年期綜合症」？</h4>
+                                1944年，海勒和馬亞思發表研究報告，不但確定了「男性更年期」這病患我症狀，並根據他們的大量臨床觀察發現，產生「男性更年期」症狀的主要是那些「肩負重任」的男士，也就是工作或生活壓力較大的男士，如公司高層、家庭支柱等。他們需要更充沛的體力、更健康的體魄和更加良好的心態，而「男性更年期」的現象打擾了他們的生活，他們因此受到困擾。此外，以下情況也可能引發「男性更年期綜合症」的：
+                                <ol>
+
+                                    <li>患有慢性疾病，如糖尿病、抑鬱症、心血管疾病等。
+                                    </li>
+                                    <li>有不良生活方式，如抽煙、酗酒、暴飲暴食等。</li>
+                                    <li>生活環境惡劣。</li>
+                                    <li>缺乏體育運動。</li>
+                                    <li>肥胖、中央肥胖、BMI超標等。</li>
+                                </ol>
+                                <br>
+                                <h4 style="color: #6e3934; font-weight: bold">D. 如何改善更年期症狀？
+                                </h4>
+                                如何增強體質、振奮精神、保持平和樂觀的情緒，提高性慾，增加肌力和骨質密度？也許延緩衰老才是根本方案！同時要配合健康生活習慣，有些是可以自行調節的，包括：
+                                <br><br> 1. 戒除不良習慣：抽煙、酗酒及膽固醇過高會增加男性更年期提早發生的風險，所以應立即戒煙，減少暴飲暴食！
+                                <br><br> 2. 定期及適當運動：要多鍛煉身體，增強體質和氣血流通。保持肌肉及骨骼品質，避免啤酒肚、血管硬化等問題。
+                                <br><br> 3. 與另一半維持良好溝通：不要自卑、自責、自棄；情緒好、生活好，才可有利體內荷爾蒙回升。
+                                <br><br> 4. 均衡飲食和增補營養：目的是增加骨質密度，增加肌肉重量，減少體內脂肪和降低血脂，以提高活力和生活品質；也可適當進食含鋅多的食物以增強性慾。
+                                <br><br> 5. 良好的生活規律：作息、飲食要定時，例如早睡早起，保持睡眠充足和質素良好。
+                                <br><br> 當然，我們reNeu+的獨家療程可助您延緩衰老，真正「回春有術」！
+                                <br><br> 備註：reNeu+獨家Quantum reNeurology<sup>TM</sup>量子重啟系統的「靈‧感‧共振療程」，綜合了煥肌青春儀的磁能肌肉運動、聲頻及高能量磁等多重高效方案，所產生的協同效應令功能更勝人一籌，然而，所需療程次數乃因人而異。
+                                <br><br>
+
+                                <strong style="color: #6e3934">療程建議：</strong>
+                                <ul>
+                                    <li><a href="treatment_spirit-sense-resonance-male.aspx">靈．感．共振療程</a></li>
+
+                                    <li><a href="treatment_quantum-brain-male.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-male.aspx">量子共振療程</a></li>
+                                </ul>
+
+
+
+                            </div>
+
+
+                            <div role="tabpanel" class="tab-pane fade in" id="c_2">
+                                <h3>五、男女回春 >> II. 女士更年期</h3>
+                                更年期對大部分女士都不陌生，因為身邊的親友都可能先後經歷這人生階段。更年期通常發生於45歲到55歲之間，更年期前期一般持續7-10年（有時可長達14年）。多數女性在49-52歲之間進入正式更年期，即收經至完全停經。
+                                <br><br>美國國家老化研究所（National Institute of Aging）指出：許多女性都會出現更年期症狀及癥兆，是因為體內雌激素開始減少，可能引起多種症狀。例如會突然間出現熱潮紅、盜汗，還有私密處陰道乾澀、尿頻及尿滲問題；以至性慾減退，同時又會心悸、恐慌、憂鬱、情緒多變、喜怒無常、煩躁易怒，以及失眠、健忘等不穩狀況及情緒。這些症狀的嚴重性可大可小、因人而異，像是潮熱、盜汗、失眠等症狀亦並非每位女士都會發生的。
+                                <br><br>事實上，隨着年齡增長而大腦海馬體衰退及雌激素出現變化，導致在生理、情緒、外貌上的影響總是有的，但只要積極面對和堅持合適的療程便可延緩衰老，輕鬆過渡。有研究發現40多歲的女士只要多鍛鍊盆底肌，將更容易有性高潮及舒解更年期的徵狀。同時，大家必須提升腦部健康，以幫助改善記憶力、負面情緒及睡眠質素不佳等問題；並配合良好生活習慣，便可重綻芳華！
+                                <br><br>
+                                <h4 style="color: #6e3934; font-weight: bold">A. 更年期出現的不適和症狀您也有嗎？ </h4>
+                                踏入更年期前期或更年期的女士，都可能出現以下多種症狀，故稱為「更年期綜合症候群」。此外，卵巢早衰（Primary Ovarian Insufficiency）是更年期提早到來的原因之一，會令40歲以下的女性FSH (卵泡刺激素)濃度提高、經期不來或偶爾才來，這絕對不容忽視。
+                                <br><br>現在就請您檢視一下自己有沒有出現以下的症狀：
+                                <ol>
+
+                                    <li>生理週期改變並且變得不規則、時間變長或變短，經血量也可能有所變化。故請留意有可能出現以下情況：
+                                        <ul>
+                                            <li>經期間距過短</li>
+                                            <li>經血量過多</li>
+                                            <li>非經期間的出血</li>
+                                            <li>經期超過一周</li>
+                                            <li>在停經超過一年後，又出現滲血情況。</li>
+
+                                        </ul>
+                                    </li>
+                                    <li> 失眠 : 難以入睡、多夢、易醒，或是因為熱潮紅引起盜汗而睡不好。
+                                    </li>
+                                    <li> 陰道衰退和失去性慾 : 陰道乾澀、分泌物減少，陰道發炎機率頻繁，性敏感度減弱，性慾減退，失去激情。
+                                    </li>
+                                    <li> 尿頻/尿滲 : 盆底肌鬆弛，膀胱易受刺激而尿頻，甚至會難以控制尿意，在運動、打噴嚏、大笑時容易滲尿或失禁等。
+                                    </li>
+                                    <li> 骨質與肌肉流失及痛症 : 骨質流失、疏鬆，加上膠原蛋白減少而令肌肉流失，更易腰酸背痛、頭痛、關節或肌肉僵硬痠痛。
+                                    </li>
+                                    <li> 熱潮紅(潮熱) : 與體內的雌激素濃度有關，上半身會突然出現熱的感覺、頸項發紅，胸口、背部、手臂也可能出現紅色的斑點，並大量流汗，還可能有發冷等症狀隨之而來。熱潮紅大多持續30秒～10分鐘，發生頻率及嚴重程度皆因人而異。
+                                    </li>
+                                    <li> 皮膚及頭髮的變化 : 鬆弛、變薄、下垂、皺紋增多、角質層變厚、白髮斑斑。
+                                    </li>
+                                    <li> 身材走樣 : 因新陳代謝減慢，脂肪容易積聚而中央肥胖，腰圍變粗、臀部變寬、同時胸部卻收縮下垂。
+                                    </li>
+                                </ol>
+                                <br>
+
+                                <h4 style="color: #6e3934; font-weight: bold">B. 大腦和卵巢對更年期的關鍵影響
+                                </h4>
+                                女性卵巢狀態一般在30歲之後便由盛轉衰，45至55歲時進一步萎縮、老化、變硬；其內分泌功能亦進一步降低到55歲時，內分泌水平幾乎只有20多歲時的四分之一，體內約有百分之四十的器官和組織，亦會因為失去卵巢內分泌功能的支援，而喪失本身功能並加劇老化！
+                                <br><br> 更年期雌激素水平下降，並導致前述的身心綜合症狀出現，正是由大腦引發出來，因為我們的大腦和卵巢都屬於神經內分泌系統，是時刻彼此循環互動和溝通的，即是大腦與卵巢的健康是息息相關，尤其是雌激素(雌二醇)在大腦功能上亦發揮相當重要的作用，其分泌水平下降便會影響大腦中的特定區域包括：
+                                <br><br> 1. 影響出現潮熱：這首先是海馬體及下丘腦，這個區域特別對體溫調節中樞起作用。更年期時，雌激素無法正常地啟動下丘腦區時，大腦就不能準確地調控體溫。會導致體溫調節中樞異常，因此女性會出現陣發性血管收縮、潮熱、汗出、煩躁等一系列更年期症狀。
+                                <br><br> 2. 影響失眠問題：腦幹這個區域負責入眠與蘇醒，當雌激素不能正常地在腦幹發揮作用時，就會引致失眠問題。
+                                <br><br> 3. 影響記憶力和情緒：大腦中的杏仁核是大腦掌控情感的中心，而海馬體是大腦的記憶控制中心。當雌激素水平在這些區域衰退時，我們很可能會開始出現情緒的起伏，記憶力降低。
+                                <br><br> 因此，部分婦女在更年期階段會察覺自己開始有健忘、記憶力減退、注意力無法集中或其他認知功能衰退的症狀，
+                                <br><br> 正如前面提及，體內雌激素的分泌減少，會加速骨質流失，內臟功能也會逐漸減退，代謝減緩。另外，長期缺乏運動、壓力過大及營養不均衡等，都可能加重這一階段的症狀。
+                                <br><br> 因此保養及激活大腦尤其重要，並改善卵巢內分泌功能，促使內分泌水準回歸正常，才可有效消除更年期症狀；才可延緩衰退的速度並改善大腦以至身體的健康。
+                                <br><br>
+                                <h4 style="color: #6e3934; font-weight: bold"> C. 積極應面對更年期
+                                </h4>
+                                更年期是一個正常的轉變，最重要清楚明白和接受更年期是人生必經階段，會帶來暫時性的不穩定和不適，當體內分泌調節到「新的平衡」，便可擁有更美麗的人生下半場！
+                                <br><br> 隨著海馬體衰退及雌激素變化，影響藉的過渡，故此必須提升腦部健康，可以透過量子活腦激發血液和氧氣流動，刺激人體分泌促使腦細胞生長，幫助海馬體增長，減低記憶力衰退或思覺失調症的風險。此外，透過鍛鍊盆底肌改善血液循環，增强下盤肌肉和身體柔軟度，而這些都可以幫助改善性生活質素。有研究發現40多歲的女性若多鍛鍊盤底肌運動，更容易有性高潮及紓解更年期的癥狀。
+                                <br><br> 緊記保持愉快心情，多做全身及盆底肌運動，讓身體機能並由內而外得以平衡，回復青春、聰穎和美貌；以至非凡健康！
+                                <br><br> 備註：reNeu+獨家Quantum reNeurology<sup>TM</sup>量子重啟系統的「靈‧感‧共振療程」，綜合了煥肌青春儀的磁能肌肉運動、聲頻及高能量磁等多重高效方案，所產生的協同效應令功能更勝人一籌，然而，所需療程次數乃因人而異。
+                                <br><br>
+
+
+                                <strong style="color: #6e3934">療程建議：</strong>
+                                <ul>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
+
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                </ul>
+
+
+
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade in" id="c_3">
+                                <h3>五、男女回春 >> III. 增進兩性生活</h3>
                                 許多人都不知道，原來骨盆底肌肉群(簡稱「盆底肌」)出現鬆弛以至萎縮，不但會影響排尿功能而導致尿滲或失禁等問題，還與陰道及前列腺等生理功能失調相關，嚴重時更有可能產生巨大的心理壓力，引發焦慮和抑鬱，繼而影響兩性關係和生活品質！
                                 <br><br> 骨盆腔基底肌肉群正是位於骨盆腔底部，外形和功能皆好像一張吊床，支撐着盆腔裡的器官，包括膀胱、直腸和生殖器官。即是女性盆腔內有子宮這孕育嬰兒的地方，也包含了卵巢、輸卵管、陰道等；而男性的生殖器官亦在盆腔之中，包括：陰莖、陰囊、攝護腺、輸精管及精囊、前列腺等組織。試想像骨盆腔的肌肉及韌帶正時刻支撐着這些器官，一旦支撐力不足夠，後果可真嚴重啊！
                                 <br><br> 與此同時，這組肌肉除了承托器官之外還要管往三個門口：以控制排尿的尿道括約肌來管住尿道(膀胱的出口)；而控制排便的肛門括約肌就管住肛門口(腸的出口)，男性的另一個門口則是射出精子的前列腺/尿道；而女士則有陰道(月經和嬰兒的出口)。因此，維持這些開口的功能健全更是非常重要──當中亦會影響性功能！
@@ -2786,16 +2966,94 @@ border-bottom: 1px solid #ba925e;"></div>
 
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
 
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                 </ul>
                             </div>
 
 
-                            <div role="tabpanel" class="tab-pane fade in" id="c_3">
-                                <h3>五、男女回春 >> II. 不再尿滲/小便不暢</h3>
+
+
+                            <div role="tabpanel" class="tab-pane fade in" id="c_4">
+                                <h3>五、男女回春 >> IV. 改善早洩/前列腺問題</h3>
+                                早洩和前列腺增生可謂男士的難言之苦……別怕，我們一起勇敢面對和改善吧！
+                                <br><br>
+                                <h4 style="color: #6e3934; font-weight: bold">A. 您是否有早洩問題?</h4>
+                                根據International Society for Sexual Medicine (簡稱為ISSM， 中譯為「國際兩性醫療學會」)這個國際組織對早洩的定義，男士們若出現以下3種情況，便是有早洩問題了︰
+                                <ol>
+
+                                    <li>無法控制射精；難以延遲射精時間，或在想要射精之前已射精了；
+                                    </li>
+                                    <li>在1分鐘或3分鐘內射精；
+                                    </li>
+                                    <li>射精時間(太早)令您有負面感覺；對自身及伴侶造成顯著的煩惱、憂慮、沮喪或逃避性生活等。
+                                    </li>
+                                </ol>
+                                <br>
+                                <h4 style="color: #6e3934; font-weight: bold">B. 早洩的主要原因
+                                </h4>
+                                1. 心理影響：對於性交產生焦慮、恐懼、憂慮；性經驗不足；與性伴侶的關係等心理因素，均可導致勃起功能障礙，繼而加快射精。另外有些人會為了完成性愛過程，迫自己「有始有終」，給自己增加無形壓力，最終演變為焦慮而加速射精。
+                                <br><br> 2. 生理因素：腦部指揮/控制射精的血清素若分泌或濃度出了問題，亦可能會導致射精的控制能力差，從插入到射精的時間短於3分鐘；或無法控制延遲射精；或造成個人負面困擾，皆為早洩症狀；也可能出現俗稱「不舉」的勃起功能障礙。
+                                <br><br> 3. 過份刺激掌管射精的神經：雄激素過高、甲狀腺亢奮、前列腺炎、糖尿病等，都可能會刺激射精的相關神經，因而加快了射精速度。
+                                <br><br> 治療早洩的傳統方法，是針對早洩的成因而進行心理輔導，並教授延遲射精的技巧，亦可多做運動，特別是透過鍛練盆底肌來增強肌肉柔韌性。
+                                <br><br>
+                                <h4 style="color: #6e3934; font-weight: bold">C. 您是否有前列腺問題?
+
+                                </h4>
+                                前列腺(又叫攝護腺)是男士身上的重要腺體，如果出了問題，會對健康造成各方面的影響，輕則尿頻、尿急；重則影響腎臟或出現腫瘤。另可能影響性生活而產生負面情緒和失去自信。
+                                <br><br> 前列腺會隨年齡漸長而體積增大(通常叫前列腺肥大)，從而壓迫尿道，使膀胱出口梗阻，造成瀦尿期和排尿期症狀匯集成的綜合症，症狀主要是膀胱受刺激，還有排尿問題，衍生以下兩種情況 :
+
+                                <ol>
+                                    <li>夜尿增多：如果平時晚上睡覺有1到2次夜尿，就可能是前列腺有增生了。如果有4到5次的頻率，更可能是嚴重的前列腺增生情況了。
+                                    </li>
+                                    <li>排尿困難：變大的前列腺會壓迫包圍在它其中的尿道，刺激尿道並使膀胱出口梗阻而出現尿頻、尿急、尿線變細、尿分叉、尿滴瀝等，有時又會出現排尿費力、中斷或尿不盡的問題。
+                                    </li>
+
+                                </ol>
+                                <br>
+                                <h4 style="color: #6e3934; font-weight: bold">D. 導致前列腺增生的原因是什麼？
+
+
+                                </h4>
+                                1. 前列腺組織經常充血：性生活過度、手淫頻繁，缺乏體育鍛練、前列腺局部血液不循環等，都很容易使前列腺組織充血而出現前列腺增生。
+                                <br><br> 2. 與其他疾病併發：例如患上前列腺炎症，卻沒有徹底治癒，便可能引發前列腺增生，病上加病就更難治了。因為患前列腺炎時，會出現腺體的腺泡和小腺管堵塞，前列腺液和炎性分泌物都排泄不暢，這些分泌物長時間淤積在前列腺內部，便會增加前列腺增生的機率，所以要按時進行清理、檢查及徹底治好炎症！
+                                <br><br> 3. 不良生活習慣：酗酒、應酬頻繁、常吃辛辣食物等，都可能導致刺激過大而引發前列腺增生。
+                                <br><br>
+                                <h4 style="color: #6e3934; font-weight: bold">E. 預防前列腺增生有方法
+
+
+
+                                </h4>
+
+                                前列腺增生一般在中、老年男士群組較常見，但是隨着生活方式和飲食習慣的改變，年輕人患上前列腺增生的情況也越來越多，因此要及早預防，請注意以下7點：
+
+                                <ol>
+                                    <li>不要擠壓前列腺。</li>
+                                    <li>減少煙、酒、辛辣食物。</li>
+                                    <li>注意保暖，不要着涼。</li>
+                                    <li>注意個人衛生，避免造成感染。</li>
+                                    <li>生活要規律，性生活更要適度。</li>
+                                    <li>按時檢查前列腺，避免前列腺液和炎性分泌物都排泄不暢。</li>
+                                    <li>經常鍛練盆底肌肉群及多做運動。</li>
+                                </ol>
+                                男女骨盆有顯著的差異，不單是形狀，還有「內涵」，除了容納直腸、膀胱、輸尿管及尿道等器官外，男性的生殖器官亦在盆腔之中，包括：陰莖、陰囊、輸精管和精囊，以及前列腺等組織。而前列腺位於盆腔底部，上方是膀胱，下方是尿道，前方是恥骨，後方是直腸。前列腺的左右，由許多韌帶和筋膜固定。試想像骨盆腔的肌肉及韌帶時刻將這些器官支撐住。若這裏的肌肉支撐力不夠，後果可真嚴重啊！
+
+                                <br><br> 男士早洩或前列腺問題的成因均不少，然而，只要通過鍛練盆底肌肉或進行量子活腦等reNeu+的獨家療程，便可有效改善性功能障礙等問題，包括早洩及前列腺增生等。因為在肌肉活動時，能促進前列腺周圍的血液循環，連下體硬度都會有所提升！
+                                <br><br> 備註：reNeu+獨家Quantum reNeurology<sup>TM</sup>量子重啟系統的「靈‧感‧共振療程」，綜合了煥肌青春儀的磁能肌肉運動、聲頻及高能量磁等多重高效方案，所產生的協同效應令功能更勝人一籌，然而，所需療程次數乃因人而異。
+                                <br><br>
+
+                                <strong style="color: #6e3934">療程建議：</strong>
+                                <ul>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
+
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                </ul>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade in" id="c_5">
+                                <h3>五、男女回春 >> V. 不再尿滲/小便不暢</h3>
 
                                 許多女士都有尿滲問題，產後及更年期的婦女更易出現，原來正是骨盆底肌肉(簡稱「盆底肌」鬆弛而導致壓力性尿失禁！而且男士的小便不暢亦與這組肌肉鬆弛有關！
                                 <br><br> 盆底肌位於人體軀幹後面的尾骨延伸至前面的恥骨，兩邊連同周遭的軟組織則連結兩側的坐骨，外形和功能皆好比一張吊床，支撐着骨盆腔裡的器官，包括膀胱、直腸，以及男、女的生殖器官，同時也控制尿道、腸道及陰道等出口，時刻維持其功能健全。
@@ -2808,19 +3066,19 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br><br>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <!-- <ul>
-                                    <li><a href="treatment_magrex.aspx">煥肌青春儀</a></li>
-                                </ul> -->
+                                  <li><a href="treatment_magrex.aspx">煥肌青春儀</a></li>
+                              </ul> -->
 
                                 <ul>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
 
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                 </ul>
                             </div>
 
-                            <div role="tabpanel" class="tab-pane fade in" id="c_4">
-                                <h3>五、男女回春 >> III. 避免子宮/膀胱脫垂</h3>
+                            <div role="tabpanel" class="tab-pane fade in" id="c_6">
+                                <h3>五、男女回春 >> VI. 避免子宮/膀胱脫垂</h3>
                                 有些女士突然出現「腹大便便」的情況，卻原來是盆腔的器官膨出了！具體包括：膀胱膨出(最常見)或尿道、小腸、大腸膨出等。甚至會出現盆腔器官脫垂，主要是子宮或陰道脫垂；也有膀胱脫垂，原來不少是骨盆底肌肉群(簡稱「盆底肌」)鬆弛或受損所致。
                                 <br><br> 盆底肌正是位於骨盆腔底部，其範圍從人體軀幹後面的尾骨到前面的恥骨，兩邊則連結兩側的坐骨，外形和功能皆好比一張吊床，支撐着骨盆腔裡的器官。
                                 <br><br> 女性盆腔除了容納直腸、膀胱、輸尿管及尿道等器官之外，還有子宮這孕育嬰兒的地方，還包含了卵巢、輸卵管、陰道等女性生殖器官。試想像骨盆腔的肌肉及韌帶正時刻將這些器官支撐住。若這裡的肌肉支撐力不足夠，後果可真嚴重啊！
@@ -2831,14 +3089,14 @@ border-bottom: 1px solid #ba925e;"></div>
 
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
 
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                 </ul>
                             </div>
-                            <div role="tabpanel" class="tab-pane fade in" id="c_5">
-                                <h3>五、男女回春 >> IV. 改善各種痛症/麻痺</h3>
+                            <div role="tabpanel" class="tab-pane fade in" id="c_7">
+                                <h3>五、男女回春 >> VII. 改善各種痛症/麻痺</h3>
                                 身體部位的痛楚會影響日常生活和工作，也會危及心理健康。常見的各種痛症及成因可能是：椎間盤突出髓核(HNP)、椎間盤脫出症(HLID)、急性和慢性頸痛、扭傷、腰酸、肩周炎、腕管綜合症、骨關節炎(OA)、韌帶損傷、肌腱炎、骨折、肌肉疼痛等等。
                                 <br><br> 手腳出現麻痺亦不容忽視，嚴重者可包括四周神經損傷，以及中風後失去知覺等等。
                                 <br><br> 原來，各種痛症或麻痺問題有可能因為肌肉鬆弛或萎縮而引起的！例如骨盆底肌肉組織鬆弛或骨盆歪斜所造成。因為，骨盆腔基底肌肉群(簡稱「盆底肌」)正是位於骨盆腔底部，其範圍從人體軀幹後面的尾骨到前面的恥骨，兩邊則連結兩側的坐骨，外形和功能皆好比一張吊床，支撐着骨盆腔裡的器官。
@@ -2848,14 +3106,14 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br><br>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
 
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                 </ul>
                             </div>
-                            <div role="tabpanel" class="tab-pane fade in" id="c_6">
-                                <h3>五、男女回春 >> V. 您的任何醫美療程皆可增值2倍或更多！</h3>
+                            <div role="tabpanel" class="tab-pane fade in" id="c_8">
+                                <h3>五、男女回春 >> VIII. 您的任何醫美療程皆可增值2倍或更多！</h3>
 
                                 許多人都不知道：骨盆腔基底肌肉群(簡稱「盆底肌」)是身心健康的關鍵之一！因其位於骨盆腔底部，外形和功能皆好像一張吊床，承托着盆腔裡的器官，包括膀胱、直腸和生殖器官。
                                 <br><br> 正因如此，隨着年紀漸長，這組肌肉亦會鬆弛，甚至萎縮！加上肥胖或產後等因素，其功能日益衰退，不但可能導致尿滲或失禁等，還與陰道及前列腺等生理功能失調相關；又有可能產生焦慮和抑鬱，或膀胱脫垂、各種痛症等問題，更會影響兩性關係和生活品質！甚或導致全身上下的毛病此起彼落，皆因這組肌肉與身體各部位的肌肉以至脊椎息息相關，其鬆弛或衰退可能會促使血液循環變差、氧氣和營養的輸送效率降低、新陳代謝亦減慢及內分泌失調，出現氣血兩虧的症狀，反映在皮膚衰老及性能力減退等問題之上！
@@ -2865,10 +3123,10 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br><br>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
 
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                 </ul>
                             </div>
 
@@ -2922,9 +3180,9 @@ border-bottom: 1px solid #ba925e;"></div>
 
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
                                 </ul>
                             </div>
 
@@ -2946,9 +3204,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br />
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
                                 </ul>
                             </div> -->
 
@@ -2979,9 +3237,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br />
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
                                 </ul>
                             </div> -->
 
@@ -3037,9 +3295,9 @@ border-bottom: 1px solid #ba925e;"></div>
 
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
                                 </ul>
                             </div>
 
@@ -3086,9 +3344,9 @@ border-bottom: 1px solid #ba925e;"></div>
 
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
                                 </ul>
                             </div> -->
 
@@ -3120,9 +3378,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br />
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
                                 </ul>
                             </div> -->
 
@@ -3193,9 +3451,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br />
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
                                 </ul>
                             </div>
 
@@ -3225,9 +3483,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br />
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
                                 </ul>
                             </div> -->
 
@@ -3260,9 +3518,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br />
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
                                 </ul>
                             </div> -->
 
@@ -3290,9 +3548,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br />
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈．感．共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈．感．共振療程</a></li>
                                 </ul>
                             </div> -->
 
@@ -3312,8 +3570,8 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <br />
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                     <li> <a href="treatment_black-diamond.aspx">黑鑽石黑松露磁排重金屬療程</a
                                       ></li>
                                     
@@ -3375,9 +3633,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
 
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                     <li><a href="treatment_re-youth.aspx">還幼養顏療程</a></li>
 
                                 </ul>
@@ -3402,9 +3660,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ol>
 
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                     <li><a href="treatment_re-youth.aspx">還幼養顏療程</a></li>
 
                                 </ol>
@@ -3435,9 +3693,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
 
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                     <li><a href="treatment_re-youth.aspx">還幼養顏療程</a></li>
 
                                 </ul>
@@ -3445,7 +3703,7 @@ border-bottom: 1px solid #ba925e;"></div>
 
 
                             <div role="tabpanel" class="tab-pane fade in" id="f_2">
-                                <h3>七、內分泌失調 >> II. 守護妳終生美麗的女性荷爾蒙
+                                <h3>七、內分泌失調 >> II. 守護女士終生美麗的女性荷爾蒙
                                 </h3>
                                 <!-- <h4 style="color: #6e3934; font-weight: bold">
                                     B. 常見的內分泌失調可能引發什麼？
@@ -3489,16 +3747,16 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
 
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                     <li><a href="treatment_re-youth.aspx">還幼養顏療程</a></li>
 
                                 </ul>
                             </div>
 
                             <!-- <div role="tabpanel" class="tab-pane fade in" id="f_2a">
-                                <h3>七、內分泌失調 >> II. 守護妳終生美麗的女性荷爾蒙
+                                <h3>七、內分泌失調 >> II. 守護女士終生美麗的女性荷爾蒙
                                 </h3>
                                 <h4 style="color: #6e3934; font-weight: bold">
                                     A. 兩種荷爾蒙相生相剋
@@ -3532,9 +3790,9 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
 
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                     <li><a href="treatment_re-youth.aspx">還幼養顏療程</a></li>
 
                                 </ul>
@@ -3542,7 +3800,7 @@ border-bottom: 1px solid #ba925e;"></div>
 
 
                             <!-- <div role="tabpanel" class="tab-pane fade in" id="f_2b">
-                                <h3>七、內分泌失調 >> II 守護妳終生美麗的女性荷爾蒙
+                                <h3>七、內分泌失調 >> II 守護女士終生美麗的女性荷爾蒙
                                 </h3>
 
                                 <h4 style="color: #6e3934; font-weight: bold">
@@ -3565,16 +3823,60 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
 
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                     <li><a href="treatment_re-youth.aspx">還幼養顏療程</a></li>
 
                                 </ul>
                             </div> -->
-
                             <div role="tabpanel" class="tab-pane fade in" id="f_3">
-                                <h3>七、內分泌失調 >> III. 女性荷爾蒙的平衡至重要
+                                <h3>七、內分泌失調 >> III. 維護你終生功能的男性荷爾蒙
+                                </h3>
+
+                                性趣減退、不舉、陽痿等性功能降低現象，是許多男士難言的困擾和苦惱，問題的癥結可能在於負責調節性荷爾蒙的內分泌系統之「性腺軸」。
+                                <br><br>
+                                <h4 style="color: #6e3934; font-weight: bold">影響終生的男性荷爾蒙</h4>
+
+                                男性荷爾蒙是促進男性生殖器官的成熟和第二性徵發育；並維持其正常功能(性功能)的激素(雄激素)。主要是指：促卵泡生成激索、促間質細胞激素、催乳素（PRL）和睾固酮四種激素。均由睾丸間質細胞產生，其中睾固酮(又叫睾丸酮、睾丸素等)是男性激素的主要成份，主要作用包括：
+
+                                <ol>
+                                    <li>刺激雄性外生殖器官(陰莖、睪丸等)與內生殖器官（精囊、前列腺等）發育成熟。並維持其機能。</li>
+                                    <li>刺激男性第二性徵的出現，同時維持其正常狀態。</li>
+                                    <li>促進精子生成和成熟。</li>
+                                    <li>促進蛋白質的合成，特別是肌肉和骨骼以及生殖器官的蛋白質合成，刺激細胞的生成。</li>
+                                </ol>
+
+                                性荷爾蒙的調節，無論男女都是由下視丘-腦垂體-腺體所組成的「性腺軸」所掌控！下視丘負責分泌「性釋素」，進而刺激腦垂腺分泌「濾泡促素」(與卵子及精子的形成有關)及「黃體促素」(與雌激素、睪固酮合成有關)，之後再刺激卵巢或睪丸細胞分泌「性激素」。因此，「性腺軸」三部份缺一不可，而且影響一生！若有部分出現問題，就會導致性功能下降。
+
+                                <br>
+                                <br> 「性功能」包括生育與性荷爾蒙功能，後者主要影響性有關的行為，甚至是情緒，包括：不孕、性交障礙（陽痿、性冷感）、情緒上的波動（例如憂鬱）、第二性徵的維持及減少（例如恥毛、腋毛減少、睪丸萎縮等），都是屬於「性功能降低」的範疇。
+                                <br><br>
+                                <h4 style="color: #6e3934; font-weight: bold">後天「性功能降低」的成因主要是什麼？</h4>
+                                成年人若非「先天不足」，出現「性功能降低」的原因有很多，包括：
+                                <ol>
+                                    <li>老化衰退：例如盆底肌鬆弛、雄激素分泌減少、男士更年期等。</li>
+                                    <li>疾病或外傷引起：例如因腮腺炎引發睪丸炎、車禍導致腦垂體及下視丘間的連結中斷、癌症化療影響到性腺功能、腦垂體瘤/炎症等。</li>
+                                    <li>功能性因素：過度運動、太瘦、厭食、壓力大等。</li>
+                                    <li>其他內分泌疾病：內分泌系統是互有影響的，例如：甲狀腺功能降低時，會使睾固酮合成減少，生產精子的能力受到抑制，引起性功能的紊亂，通常還會有男性性慾減退、勃起功能障礙等現象發生。而腎上腺皮質醇過多或減少，也會抑制下視丘及腦垂腺功能，影響男性雄風表現。</li>
+                                    <li>酒精影響或肝機能受損：肝臟是分解女性荷爾蒙(雌激素)的重要器官，當肝機能不良時，就會造成男士身上女性荷爾蒙過多，引起男性女乳症。同時，肝硬化患者易出現內分泌失調及性功能降低而產生的問題，而酗酒者容易出現肝臟問題。 </li>
+                                </ol>
+                                <br> 性荷爾蒙缺乏不僅影響到性功能，長期缺乏還可能會出現骨質疏鬆症、肌少症、貧血等問題。一般成年男士的雄激素（睪固酮）正常值為300～1000ng/dl，若檢驗數值低於300ng/dl，或65歲以上男士低於200ng/dl者，即可考慮量子重啟系列療程，對於體力、情緒、避免骨質疏鬆等皆有幫助。
+
+                                <br>
+                                <br>
+                                <strong style="color: #6e3934">療程建議：</strong>
+                                <ul>
+
+                                    <li><a href="treatment_spirit-sense-resonance-male.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-male.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-male.aspx">量子共振療程</a></li>
+
+                                </ul>
+
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade in" id="f_4">
+                                <h3>七、內分泌失調 >> IV. 女性荷爾蒙的平衡至重要
                                 </h3>
 
                                 <!-- <h4 style="color: #6e3934; font-weight: bold">
@@ -3643,15 +3945,15 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
 
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                     <li><a href="treatment_re-youth.aspx">還幼養顏療程</a></li>
 
                                 </ul>
                             </div>
 
-                            <!-- <div role="tabpanel" class="tab-pane fade in" id="f_3a">
+                            <!-- <div role="tabpanel" class="tab-pane fade in" id="f_4a">
                                 <h3>七、內分泌失調 >> III. 女性荷爾蒙的平衡至重要
                                 </h3>
 
@@ -3692,16 +3994,16 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
 
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                     <li><a href="treatment_re-youth.aspx">還幼養顏療程</a></li>
 
                                 </ul>
                             </div> -->
 
 
-                            <!-- <div role="tabpanel" class="tab-pane fade in" id="f_3b">
+                            <!-- <div role="tabpanel" class="tab-pane fade in" id="f_4b">
                                 <h3>七、內分泌失調 >> III. 女性荷爾蒙的平衡至重要
                                 </h3>
 
@@ -3726,16 +4028,75 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
 
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                     <li><a href="treatment_re-youth.aspx">還幼養顏療程</a></li>
 
                                 </ul>
                             </div> -->
 
-                            <div role="tabpanel" class="tab-pane fade in" id="f_4">
-                                <h3>七、內分泌失調 >> IV. 盆底肌鬆弛可能是主因
+                            <div role="tabpanel" class="tab-pane fade in" id="f_5">
+                                <h3>七、內分泌失調 >> V. 男性荷爾蒙的平衡是關鍵
+
+                                </h3>
+
+                                荷爾蒙失調即是荷爾蒙的分泌量或濃度失去了平衡! 不同年齡階段都可能出現荷爾蒙失調，引發的症狀包括：痤瘡和暗瘡、不孕、性功能障礙、脫髮、前列腺增生、甲狀腺功能低下或亢進、失眠、精神萎靡、憂鬱、情緒起伏等，男性出現這些症狀時，通常又比女性更難以面對。
+                                <br><br> 隨著年齡的增長，整體健康水準下降，更有研究指出：男性荷爾蒙當中的睾固酮(雄激素)分泌量和濃度也逐漸降低，發生代謝綜合症的可能性越來越大，出現性慾降低、情緒低落、疲勞及勃起功能障礙等等男士更年期症狀，同時還有可能導致糖尿病、心臟病、心血管疾病等問題。
+                                <br><br> 男性荷爾蒙通過對性神經中樞的影響和生殖器官的刺激，以激發男性的性慾，提高性的興奮。如果男性荷爾蒙過少，男性的性慾就會降低，並容易導致陽痿等性功能障礙。
+                                <br><br> 同時，原來男性荷爾蒙能夠加速機體各種蛋白質的合成，包括促進機體免疫球蛋白的合成，提高機體免疫力。從而人體肌肉發達，身體健壯；更可提高男性機體骨骼的造血機能，使得骨髓生成更多的紅細胞。
+                                <br><br>
+                                <h4 style="color: #6e3934; font-weight: bold">
+
+                                    影響男性荷爾蒙分泌失調的常見原因：
+                                </h4>
+                                <ol>
+                                    <li>老化：人體內分泌腺激素可讓生理保持平衡狀態，但調節能力會隨著年齡的增長而逐漸降低，情況因人而異。</li>
+                                    <li>各種壓力：長期處於緊張壓力的環境中及作息不正常(例如失眠)，容易產生荷爾蒙分泌的紊亂，引發內分泌失調。</li>
+                                    <li>飲食不當：肥胖和酒精最易造成失衡，有人說「喝酒助性」，但其實酒精會抑制下視丘及腦垂體，傷害肝臟，因此，經常喝酒應酬或酗酒者，不僅可能出現內分泌問題，甚至會造成性功能障礙。</li>
+                                </ol>
+                                <br>
+                                <h4 style="color: #6e3934; font-weight: bold">
+
+                                    有助男性荷爾蒙保持平衡的「補品」
+                                </h4>
+                                <ol>
+                                    <li>水：人類腦部有80%是水，脫水第一個受影響的器官就是腦，會直接影響內分泌! 水分太少，會讓人感到疲勞，反應遲鈍。一天至少要喝約2000毫升合適的水。
+                                    </li>
+
+                                    <li>黃豆：含有植物性荷爾蒙，還對改善男性的骨質流失有效， 因男性過了60歲，骨質會開始流失，情況和更年期婦女一樣嚴重。多吃黃豆更可補充卵磷脂。卵磷脂已被證實與短期記憶力和學習能力有關。
+                                    </li>
+                                    <li>南瓜子：男士40歲以後，大多數人有前列腺肥大的問題。南瓜子的提取物已證明可改善及其他癥狀並抗老化。
+                                    </li>
+                                    <li>海鮮：男性精液中含有大量的鋅。若體內鋅不足時，便會影響精子的數量與品質。海鮮類中的蠔、蝦、蟹的鋅含量很豐富，故可增強性能力。
+                                    </li>
+                                    <li>高維生素C食物：男性在24歲后精子的質與量都在走下坡，維生素C不但對此有幫助，還可協助副腎上腺皮質素（一種抗精神壓力的荷爾蒙）的分泌，可以對抗壓力。高維生素C的食物有奇異果、橘子、青花椰菜、蘆筍等。
+                                    </li>
+                                    <li>胡蘿蔔 ：胡蘿蔔素會在體內變化成維生素A，提高身體的抵抗力，抑制導致細胞惡化的活性氧等。 胡蘿蔔中含有豐富的鉀，具有降血壓的作用。 胡蘿蔔素還能預防癌症。
+                                    </li>
+                                    <li>大蒜：大蒜具有強烈的殺菌力，能消滅侵入體內的病菌。 大蒜能促進維生素B1的吸收，促進糖類的新陳代謝以產生能源，並消除疲勞。 大蒜另一不可忽視的功能就是提高免疫力。 大蒜中所含的硒化鉛具有抗氧化作用，因此被視為防癌的食物。 男性多食大蒜可改善體質並強身。
+                                    </li>
+                                    <li>深海魚：壓力大會使男性罹患高血脂症和中風的年齡降低。 深海魚中的Omega-3脂肪酸可阻止血液凝結、減少血管收縮、降低三酸甘油脂等，對心臟血管特別有益。 美國心臟病協會建議：一星期最少要吃兩次魚。
+                                    </li>
+                                </ol>
+
+                                <br>
+                                <strong style="color: #6e3934">療程建議：</strong>
+                                <ul>
+
+                                    <li><a href="treatment_spirit-sense-resonance-male.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-male.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-male.aspx">量子共振療程</a></li>
+
+                                </ul>
+
+
+
+
+
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade in" id="f_6">
+                                <h3>七、內分泌失調 >> VI. 盆底肌鬆弛可能是女士內分泌失調的主因
 
                                 </h3>
 
@@ -3754,13 +4115,41 @@ border-bottom: 1px solid #ba925e;"></div>
                                 <strong style="color: #6e3934">療程建議：</strong>
                                 <ul>
 
-                                    <li><a href="treatment_spirit-sense-resonance.aspx">靈・感・共振療程</a></li>
-                                    <li><a href="treatment_quantum-brain.aspx">量子活腦療程</a></li>
-                                    <li><a href="treatment_quantum-touch.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_spirit-sense-resonance-female.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-female.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-female.aspx">量子共振療程</a></li>
                                     <li><a href="treatment_re-youth.aspx">還幼養顏療程</a></li>
 
                                 </ul>
                             </div>
+
+                            <div role="tabpanel" class="tab-pane fade in" id="f_7">
+                                <h3>七、內分泌失調 >> VII. 盆底肌鬆弛亦會大大影響男士內分泌失調
+
+                                </h3>
+
+                                盆底肌鬆弛也會影響內分泌平衡以至身心健康的！真的許多人都不知道位於骨盆腔底部的骨盆腔基底肌肉群出現鬆弛亦會對內分泌失調有很大的影響，因其外形和功能皆好比一張吊床，支撐着骨盆腔裏的器官，除了直腸、膀胱、輸尿管及尿道等器官外，還有男性生殖器官，包括：陰莖、陰囊、前列腺、輸精管及精囊等。
+                                <br><br> 由於我們每天站立的狀態及地心吸力的影響，骨盆底肌肉和盆腔的器官均自然向下墜。隨著年齡漸長，膠原蛋白流失，便會出現肌肉鬆弛；又或長期負重 (包括肥胖)，都會造成骨盆腔底的肌肉群無力支撐，可能導致前列腺肌肉及韌帶的支撐力出現不足；最重要是導致血液循環變差，氧氣和營養的輸送效率降低，新陳代謝亦減慢，出現氣血兩虧，而引發內分泌失調，帶來男性更年期的種種不適，特別是性功能減退等症狀及其他身心健康問題！
+                                <br><br> 事實上，男士踏入40歲之後，男性荷爾蒙～主要是雄性激素(androgen，即睪固酮，又叫睪酮、睪丸素等)的分泌就會隨年齡增長而遞減，其分泌量/濃度逐漸降低，便會引起生理和心理出現相應的變化，產生了與女性更年期部份類似的不適症狀，因人而異，包括：精神緊張或抑鬱、易於疲倦、記憶力下降、注意力不集中、失眠、陣發性潮熱、出汗、性欲下降和勃起功能障礙等。而盆底肌鬆弛便有可能引發、加重或加快上述這些男士更年期症狀的出現！
+                                <br><br> 同時，盆底肌鬆弛以至萎縮亦影響其所承托的器官機能，例如排便、排尿，以及與陰部相關的生理功能，還要承受因這些問題引起的巨大心理壓力與焦慮，影響人際(包括兩性關係)和生活品質。此外，也有可能骨盆出現歪斜，導致脊椎彎曲，而肩部、腰部的肌肉過度使用，便會疼痛。
+                                <br><br> 因此要從根本上調理和保養內分泌系統及生殖器官，延緩衰老，讓陰部不再鬆弛(包括前列腺肌肉及韌帶回復強韌，有效行氣活血、舒緩緊張、排遣壓力、改善前列腺增生、早洩、男性更年期症狀、便秘等問題，令體質及體態得以由內而外全面提升！
+                                <br><br> 總而言之，內在保健和調理，才是保養容顏和身型的真正關鍵！而磁能肌肉運動的刺激理療更是快捷見效～令骨盆底肌肉群加以收緊及強化並從而上提，讓盆腔器官(包括生殖器宮)及全身整體回復健康水平。
+                                <br><br> 備註：reNeu+獨家Quantum reNeurology<sup>TM</sup>量子重啟系統旗下的「靈‧感‧共振」療程，綜合了煥肌青春儀的磁能肌肉運動、聲頻及高能量磁等多重高效方案。所產生的協同效應令功能更勝人一籌，然而，所需療程次數乃因人而異。
+
+                                <br>
+                                <br>
+                                <strong style="color: #6e3934">療程建議：</strong>
+                                <ul>
+
+                                    <li><a href="treatment_spirit-sense-resonance-male.aspx">靈・感・共振療程</a></li>
+                                    <li><a href="treatment_quantum-brain-male.aspx">量子活腦療程</a></li>
+                                    <li><a href="treatment_quantum-touch-male.aspx">量子共振療程</a></li>
+                                    <li><a href="treatment_re-youth.aspx">還幼養顏療程</a></li>
+
+                                </ul>
+
+                            </div>
+
 
 
 

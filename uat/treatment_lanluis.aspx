@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/uat/treatment_tc.master" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/tc/treatment_tc.master" %>
 
     <script runat="server"></script>
 
